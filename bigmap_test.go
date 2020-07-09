@@ -98,6 +98,32 @@ func BenchmarkSetNoRes(b *testing.B) {
 	benchConfig(b, c, 200000000)
 }
 
+func BenchmarkSetNoAllocBig1Mil(b *testing.B) {
+	c := &Config{
+		NumMapShards:    32,
+		NumBadgers:      8,
+		LenMaxMap:       1000000,
+		LenPreAllocxMap: 1000,
+		LenBloom:        112345678,
+		LenFalsePos:     0.1,
+		LenChan:         4,
+	}
+	benchConfig(b, c, 500000000)
+}
+
+func BenchmarkSetBigBig1Mil(b *testing.B) {
+	c := &Config{
+		NumMapShards:    32,
+		NumBadgers:      8,
+		LenMaxMap:       1000000,
+		LenPreAllocxMap: 1000000,
+		LenBloom:        112345678,
+		LenFalsePos:     0.1,
+		LenChan:         4,
+	}
+	benchConfig(b, c, 1000000000)
+}
+
 func BenchmarkSetBig1Mil(b *testing.B) {
 	c := &Config{
 		NumMapShards:    32,
