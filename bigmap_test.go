@@ -140,12 +140,12 @@ func BenchmarkSetBig1Mil(b *testing.B) {
 func BenchmarkSet1Mil(b *testing.B) {
 	c := &Config{
 		NumMapShards:    32,
-		NumBadgers:      8,
+		NumBadgers:      32,
 		LenMaxMap:       1000000,
 		LenPreAllocxMap: 1000000,
 		LenBloom:        112345678,
 		LenFalsePos:     0.1,
-		LenChan:         4,
+		LenChan:         1,
 	}
 	benchConfig(b, c, 200000000)
 }
