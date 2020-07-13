@@ -2,10 +2,12 @@ package bigmap
 
 import (
 	"encoding/binary"
+	"errors"
 	"fmt"
 	"io/ioutil"
 	"log"
 	"os"
+	"runtime"
 	"sync"
 
 	"net/http"
@@ -30,7 +32,36 @@ type writer struct {
 	db  *badger.DB
 	bl  *z.Bloom
 
-	inCh chan *Input
+	inCh   chan *Input
+	inBuff *channelBuffer
+}
+
+type channelBuffer struct {
+	buffer []map[string]interface{}
+}
+
+func newChanBuffer(n int) *channelBuffer {
+	cb := &channelBuffer{buffer: make([]map[string]interface{}, n, n)}
+	for i := 0; i < n; i++ {
+		cb.buffer[i] = nil
+	}
+	return cb
+}
+
+func (b *channelBuffer) insert(inp map[string]interface{}) int {
+	for i := 0; i < len(b.buffer); i++ {
+		if b.buffer[i] != nil {
+			continue
+		}
+		b.buffer[i] = inp
+		return i
+	}
+
+	panic(errors.New("Maximum limit reached"))
+}
+
+func (b *channelBuffer) remove(i int) {
+	b.buffer[i] = nil
 }
 
 type BigMap struct {
@@ -60,11 +91,13 @@ type Config struct {
 }
 
 type Input struct {
-	dict map[string]interface{}
-	sh   *shard
+	sh *shard
+	bP int
 }
 
 func NewBigMap(config *Config) (*BigMap, error) {
+	runtime.SetBlockProfileRate(1)
+
 	//TODO reuse old badger
 	cache, err := ristretto.NewCache(&ristretto.Config{
 		NumCounters: 1e8,     // number of keys to track frequency of (10M).
@@ -109,10 +142,11 @@ func NewBigMap(config *Config) (*BigMap, error) {
 		}
 
 		bm.writers[i] = &writer{
-			dir:  dir,
-			db:   db,
-			inCh: make(chan *Input, config.LenChan),
-			bl:   z.NewBloomFilter(config.LenBloom, config.LenFalsePos),
+			dir:    dir,
+			db:     db,
+			inCh:   make(chan *Input, config.LenChan),
+			inBuff: newChanBuffer(3 * config.LenChan),
+			bl:     z.NewBloomFilter(config.LenBloom, config.LenFalsePos),
 		}
 
 		if config.LenBloom == 0 {
@@ -137,19 +171,22 @@ func NewBigMap(config *Config) (*BigMap, error) {
 	}
 
 	bm.cacheCost = func(key string) int64 {
-		return 10 * int64(len(key))
+		return 2 * int64(len(key))
 	}
 
-	dump := func(uidMap map[string]interface{}, sh *shard, i int) {
-		bm.writers[i].Lock()
+	dump := func(h *shard, k, i int) {
 		writer := bm.writers[i].db.NewWriteBatch()
+		uidMap := (bm.writers[i].inBuff.buffer[k])
 		for key, value := range uidMap {
 			bm.cache.Set(key, value, bm.cacheCost(key))
 			if err := writer.Set([]byte(key), bm.varToBytes(value)); err != nil {
 				panic(err)
 			}
 		}
+
+		bm.writers[i].Lock()
 		bm.pool.Put(uidMap)
+		bm.writers[i].inBuff.remove(k)
 		writer.Flush()
 		bm.writers[i].Unlock()
 	}
@@ -158,13 +195,20 @@ func NewBigMap(config *Config) (*BigMap, error) {
 	for i := 0; i < int(config.NumBadgers); i++ {
 		go func(bm *BigMap, bindex int) {
 			for i := range bm.writers[bindex].inCh {
-				dump(i.dict, i.sh, bindex)
+				dump(i.sh, i.bP, bindex)
 			}
 			bm.inwg.Done()
 		}(bm, i)
 	}
 
 	return bm, nil
+}
+
+func (b *BigMap) getShardAndWriterI(key []byte) (uint32, uint32) {
+	fp := farm.Fingerprint32([]byte(key))
+	shard_i := fp % uint32(len(b.shards))
+	writer_i := fp % uint32(len(b.writers))
+	return shard_i, writer_i
 }
 
 func (b *BigMap) getShardAndWriter(key []byte) (*shard, *writer) {
@@ -189,6 +233,19 @@ func (b *BigMap) Get(key []byte) interface{} {
 
 	var valCopy []byte
 	if bsh.bl != nil && bsh.bl.Has(fp) {
+		bsh.RLock()
+		for _, i := range bsh.inBuff.buffer {
+			if i == nil {
+				continue
+			}
+			val := i[string(key)]
+			if val != nil {
+				bsh.RUnlock()
+				return val
+			}
+		}
+		bsh.RUnlock()
+
 		if b.cache != nil {
 			if valI, ok := b.cache.Get(key); ok && valI != nil {
 				return valI
@@ -196,7 +253,7 @@ func (b *BigMap) Get(key []byte) interface{} {
 		}
 
 		err := bsh.db.View(func(txn *badger.Txn) error {
-			item, err := txn.Get(key)
+			item, err := txn.Get([]byte(string(key)))
 			if err != nil {
 				return err
 			}
@@ -210,6 +267,7 @@ func (b *BigMap) Get(key []byte) interface{} {
 		if err == nil {
 			val = binary.BigEndian.Uint64(valCopy)
 			b.cache.Set(key, val, 10*int64(len(key)))
+			return val
 		}
 	}
 
@@ -224,12 +282,16 @@ func (b *BigMap) Set(key []byte, value interface{}) {
 	sh.dict[string(key)] = value
 
 	if len(sh.dict) > b.maxCap {
-		bsh.inCh <- &Input{dict: sh.dict, sh: sh}
+		bsh.Lock()
+		bP := bsh.inBuff.insert(sh.dict)
+		bsh.Unlock()
+		inp := &Input{sh: sh, bP: bP}
 		if bsh.bl != nil {
 			for key := range sh.dict {
 				bsh.bl.Add(farm.Fingerprint64([]byte(key)))
 			}
 		}
+		bsh.inCh <- inp
 		sh.dict = nil
 		sh.dict = b.pool.Get().(map[string]interface{})
 		for key := range sh.dict {
