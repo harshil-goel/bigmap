@@ -101,7 +101,7 @@ func NewBigMap(config *Config) (*BigMap, error) {
 	//TODO reuse old badger
 	cache, err := ristretto.NewCache(&ristretto.Config{
 		NumCounters: 1e8,     // number of keys to track frequency of (10M).
-		MaxCost:     1 << 28, // maximum cost of cache (1GB).
+		MaxCost:     1 << 30, // maximum cost of cache (1GB).
 		BufferItems: 64,      // number of keys per Get buffer.
 	})
 	if err != nil {
