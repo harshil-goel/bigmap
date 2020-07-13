@@ -195,7 +195,7 @@ func BenchmarkRandInit(b *testing.B) {
 		LenFalsePos:     0.1,
 		LenChan:         16,
 	}
-	if err := benchRandomConfig(b, c, 400000000, 0.1); err != nil {
+	if err := benchRandomConfig(b, c, 4000000000, 0.5); err != nil {
 		fmt.Println(err.Error())
 		return
 	}
@@ -211,7 +211,7 @@ func BenchmarkRand1Mil(b *testing.B) {
 		LenFalsePos:     0.1,
 		LenChan:         4,
 	}
-	if err := benchRandomConfig(b, c, 400000000, 0.1); err != nil {
+	if err := benchRandomConfig(b, c, 1000000000, 0.5); err != nil {
 		fmt.Println(err.Error())
 		return
 	}
