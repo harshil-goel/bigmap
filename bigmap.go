@@ -281,7 +281,7 @@ func (b *BigMap) Set(key []byte, value interface{}) {
 
 	sh.dict[string(key)] = value
 
-	if len(sh.dict) > b.maxCap {
+	if len(sh.dict) > b.maxCap && bsh != nil {
 		bsh.Lock()
 		bP := bsh.inBuff.insert(sh.dict)
 		bsh.Unlock()

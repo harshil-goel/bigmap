@@ -185,7 +185,23 @@ func BenchmarkSetBig1Mil(b *testing.B) {
 	benchSetConfig(b, c, 500000000)
 }
 
-func BenchmarkRand(b *testing.B) {
+func BenchmarkRandInit(b *testing.B) {
+	c := &Config{
+		NumMapShards:    32,
+		NumBadgers:      0,
+		LenMaxMap:       10000000000,
+		LenPreAllocxMap: 0,
+		LenBloom:        0,
+		LenFalsePos:     0.1,
+		LenChan:         16,
+	}
+	if err := benchRandomConfig(b, c, 400000000, 0.1); err != nil {
+		fmt.Println(err.Error())
+		return
+	}
+}
+
+func BenchmarkRand1Mil(b *testing.B) {
 	c := &Config{
 		NumMapShards:    32,
 		NumBadgers:      8,
