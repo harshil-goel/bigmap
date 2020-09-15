@@ -1,0 +1,527 @@
+Here
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+badger 2020/07/09 14:15:28 INFO: All 0 tables opened in 0s
+INFO 0 0
+INFO 1 1000000
+INFO 1 2000000
+INFO 1 3000000
+INFO 1 4000000
+INFO 2 5000000
+INFO 2 6000000
+INFO 2 7000000
+INFO 2 8000000
+INFO 3 9000000
+INFO 3 10000000
+INFO 3 11000000
+INFO 4 12000000
+INFO 4 13000000
+INFO 4 14000000
+INFO 4 15000000
+INFO 5 16000000
+INFO 5 17000000
+INFO 5 18000000
+INFO 5 19000000
+INFO 6 20000000
+INFO 6 21000000
+INFO 6 22000000
+INFO 7 23000000
+INFO 7 24000000
+INFO 7 25000000
+INFO 7 26000000
+INFO 8 27000000
+INFO 8 28000000
+INFO 8 29000000
+INFO 8 30000000
+INFO 9 31000000
+INFO 17 32000000
+INFO 27 33000000
+INFO 27 34000000
+INFO 28 35000000
+INFO 28 36000000
+INFO 28 37000000
+INFO 29 38000000
+INFO 29 39000000
+INFO 29 40000000
+INFO 30 41000000
+INFO 30 42000000
+INFO 30 43000000
+INFO 30 44000000
+INFO 31 45000000
+INFO 31 46000000
+INFO 31 47000000
+INFO 32 48000000
+INFO 32 49000000
+INFO 32 50000000
+INFO 32 51000000
+INFO 33 52000000
+INFO 33 53000000
+INFO 33 54000000
+INFO 33 55000000
+INFO 34 56000000
+INFO 34 57000000
+INFO 35 58000000
+INFO 35 59000000
+INFO 35 60000000
+INFO 36 61000000
+INFO 36 62000000
+INFO 36 63000000
+INFO 44 64000000
+INFO 54 65000000
+INFO 55 66000000
+INFO 55 67000000
+INFO 55 68000000
+INFO 56 69000000
+INFO 56 70000000
+INFO 56 71000000
+INFO 57 72000000
+INFO 57 73000000
+INFO 57 74000000
+INFO 58 75000000
+INFO 58 76000000
+INFO 58 77000000
+INFO 59 78000000
+INFO 59 79000000
+INFO 59 80000000
+INFO 59 81000000
+INFO 60 82000000
+INFO 60 83000000
+INFO 60 84000000
+INFO 60 85000000
+INFO 61 86000000
+INFO 61 87000000
+INFO 61 88000000
+INFO 62 89000000
+INFO 62 90000000
+INFO 62 91000000
+INFO 62 92000000
+INFO 63 93000000
+INFO 63 94000000
+INFO 63 95000000
+INFO 71 96000000
+INFO 81 97000000
+INFO 81 98000000
+INFO 82 99000000
+INFO 82 100000000
+INFO 82 101000000
+INFO 83 102000000
+INFO 83 103000000
+INFO 83 104000000
+INFO 84 105000000
+INFO 84 106000000
+INFO 84 107000000
+INFO 85 108000000
+INFO 85 109000000
+INFO 85 110000000
+INFO 86 111000000
+INFO 86 112000000
+INFO 86 113000000
+INFO 86 114000000
+INFO 87 115000000
+INFO 87 116000000
+INFO 87 117000000
+INFO 88 118000000
+INFO 88 119000000
+INFO 88 120000000
+INFO 89 121000000
+INFO 89 122000000
+INFO 89 123000000
+INFO 90 124000000
+INFO 90 125000000
+INFO 90 126000000
+INFO 90 127000000
+INFO 101 128000000
+INFO 110 129000000
+INFO 110 130000000
+INFO 111 131000000
+INFO 111 132000000
+INFO 111 133000000
+INFO 112 134000000
+INFO 112 135000000
+INFO 112 136000000
+INFO 113 137000000
+INFO 113 138000000
+INFO 113 139000000
+INFO 114 140000000
+INFO 114 141000000
+INFO 114 142000000
+INFO 115 143000000
+INFO 115 144000000
+INFO 115 145000000
+INFO 115 146000000
+INFO 116 147000000
+INFO 116 148000000
+INFO 116 149000000
+INFO 117 150000000
+INFO 117 151000000
+INFO 117 152000000
+INFO 118 153000000
+INFO 118 154000000
+INFO 118 155000000
+INFO 118 156000000
+INFO 119 157000000
+INFO 119 158000000
+INFO 119 159000000
+INFO 127 160000000
+INFO 138 161000000
+INFO 138 162000000
+INFO 139 163000000
+INFO 139 164000000
+INFO 139 165000000
+INFO 140 166000000
+INFO 140 167000000
+INFO 140 168000000
+INFO 141 169000000
+INFO 141 170000000
+INFO 141 171000000
+INFO 142 172000000
+INFO 142 173000000
+INFO 142 174000000
+INFO 143 175000000
+INFO 143 176000000
+INFO 143 177000000
+INFO 144 178000000
+INFO 144 179000000
+INFO 144 180000000
+INFO 144 181000000
+INFO 145 182000000
+INFO 145 183000000
+INFO 145 184000000
+INFO 146 185000000
+INFO 146 186000000
+INFO 146 187000000
+INFO 147 188000000
+INFO 147 189000000
+INFO 147 190000000
+INFO 148 191000000
+badger 2020/07/09 14:18:01 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:01 INFO: Running for level: 0
+badger 2020/07/09 14:18:03 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:03 INFO: Running for level: 0
+badger 2020/07/09 14:18:03 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:03 INFO: Running for level: 0
+badger 2020/07/09 14:18:04 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:04 INFO: Running for level: 0
+badger 2020/07/09 14:18:05 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 3.646931655s
+badger 2020/07/09 14:18:05 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:06 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:06 INFO: Running for level: 0
+INFO 158 192000000
+badger 2020/07/09 14:18:06 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:06 INFO: Running for level: 0
+badger 2020/07/09 14:18:06 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 3.305966892s
+badger 2020/07/09 14:18:06 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:06 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 3.58668423s
+badger 2020/07/09 14:18:06 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:06 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 2.701642571s
+badger 2020/07/09 14:18:06 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:07 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:07 INFO: Running for level: 0
+badger 2020/07/09 14:18:07 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:07 INFO: Running for level: 0
+badger 2020/07/09 14:18:08 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:08 INFO: Running for level: 0
+badger 2020/07/09 14:18:09 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:09 INFO: Running for level: 0
+badger 2020/07/09 14:18:09 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 3.393380214s
+badger 2020/07/09 14:18:09 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:10 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:10 INFO: Running for level: 0
+badger 2020/07/09 14:18:10 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 3.719124342s
+badger 2020/07/09 14:18:10 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:11 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:11 INFO: Running for level: 0
+badger 2020/07/09 14:18:12 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 5.366741819s
+badger 2020/07/09 14:18:12 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:12 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 5.135284892s
+badger 2020/07/09 14:18:12 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:13 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:13 INFO: Running for level: 0
+badger 2020/07/09 14:18:13 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:13 INFO: Running for level: 0
+badger 2020/07/09 14:18:14 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 5.555600473s
+badger 2020/07/09 14:18:14 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:15 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 5.931520123s
+badger 2020/07/09 14:18:15 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:15 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:15 INFO: Running for level: 0
+badger 2020/07/09 14:18:17 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 7.234346645s
+badger 2020/07/09 14:18:17 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:17 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:17 INFO: Running for level: 0
+badger 2020/07/09 14:18:19 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 7.357210842s
+badger 2020/07/09 14:18:19 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:19 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 6.414239671s
+badger 2020/07/09 14:18:19 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:19 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:19 INFO: Running for level: 0
+badger 2020/07/09 14:18:19 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:19 INFO: Running for level: 0
+badger 2020/07/09 14:18:20 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 6.412091022s
+badger 2020/07/09 14:18:20 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:20 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:20 INFO: Running for level: 0
+badger 2020/07/09 14:18:21 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:21 INFO: Running for level: 0
+INFO 173 193000000
+badger 2020/07/09 14:18:22 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 7.027009763s
+badger 2020/07/09 14:18:22 INFO: Compaction for level: 0 DONE
+INFO 174 194000000
+badger 2020/07/09 14:18:23 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 5.727750421s
+badger 2020/07/09 14:18:23 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:23 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 3.575628381s
+badger 2020/07/09 14:18:23 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:23 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 3.626488268s
+badger 2020/07/09 14:18:23 INFO: Compaction for level: 0 DONE
+INFO 175 195000000
+badger 2020/07/09 14:18:23 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:23 INFO: Running for level: 0
+badger 2020/07/09 14:18:23 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:23 INFO: Running for level: 0
+INFO 176 196000000
+INFO 176 197000000
+INFO 176 198000000
+badger 2020/07/09 14:18:25 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:25 INFO: Running for level: 0
+badger 2020/07/09 14:18:25 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 3.85367505s
+badger 2020/07/09 14:18:25 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 4.364551651s
+badger 2020/07/09 14:18:25 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:25 INFO: Compaction for level: 0 DONE
+INFO 177 199000000
+badger 2020/07/09 14:18:25 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:25 INFO: Running for level: 0
+badger 2020/07/09 14:18:25 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:25 INFO: Running for level: 0
+badger 2020/07/09 14:18:25 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:25 INFO: Running for level: 0
+badger 2020/07/09 14:18:26 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:26 INFO: Running for level: 0
+badger 2020/07/09 14:18:26 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 2.722751706s
+badger 2020/07/09 14:18:26 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:27 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 3.392616067s
+badger 2020/07/09 14:18:27 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:28 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:28 INFO: Running for level: 0
+badger 2020/07/09 14:18:29 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:29 INFO: Running for level: 0
+badger 2020/07/09 14:18:29 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 4.404315882s
+badger 2020/07/09 14:18:29 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:30 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 4.908037415s
+badger 2020/07/09 14:18:30 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:30 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 4.526533411s
+badger 2020/07/09 14:18:30 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:30 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 4.264213752s
+badger 2020/07/09 14:18:30 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:30 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:30 INFO: Running for level: 0
+badger 2020/07/09 14:18:30 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:30 INFO: Running for level: 0
+badger 2020/07/09 14:18:30 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:30 INFO: Running for level: 0
+badger 2020/07/09 14:18:30 INFO: Got compaction priority: {level:0 score:1 dropPrefix:[]}
+badger 2020/07/09 14:18:30 INFO: Running for level: 0
+badger 2020/07/09 14:18:34 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 7.875669332s
+badger 2020/07/09 14:18:34 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:34 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 4.033337206s
+badger 2020/07/09 14:18:34 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:34 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 5.525467274s
+badger 2020/07/09 14:18:34 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 3.844807609s
+badger 2020/07/09 14:18:34 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:34 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:34 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 3.95180409s
+badger 2020/07/09 14:18:34 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:34 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 4.706459337s
+badger 2020/07/09 14:18:34 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:34 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 4.314968011s
+badger 2020/07/09 14:18:34 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:34 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:34 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:34 INFO: Running for level: 0
+badger 2020/07/09 14:18:35 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.210869051s
+badger 2020/07/09 14:18:35 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:35 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:35 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:35 INFO: Running for level: 0
+badger 2020/07/09 14:18:36 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.186012872s
+badger 2020/07/09 14:18:36 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:36 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:36 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:36 INFO: Running for level: 0
+badger 2020/07/09 14:18:38 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.22515223s
+badger 2020/07/09 14:18:38 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:38 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:38 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:38 INFO: Running for level: 0
+badger 2020/07/09 14:18:39 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.221691279s
+badger 2020/07/09 14:18:39 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:39 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:39 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:39 INFO: Running for level: 0
+badger 2020/07/09 14:18:40 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.245223205s
+badger 2020/07/09 14:18:40 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:40 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:40 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:40 INFO: Running for level: 0
+badger 2020/07/09 14:18:41 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.214948183s
+badger 2020/07/09 14:18:41 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:41 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:42 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:42 INFO: Running for level: 0
+badger 2020/07/09 14:18:43 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.200540193s
+badger 2020/07/09 14:18:43 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:43 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:43 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:43 INFO: Running for level: 0
+badger 2020/07/09 14:18:44 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.248601199s
+badger 2020/07/09 14:18:44 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:44 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:44 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:44 INFO: Running for level: 0
+badger 2020/07/09 14:18:45 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.235844337s
+badger 2020/07/09 14:18:45 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:45 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:45 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:45 INFO: Running for level: 0
+badger 2020/07/09 14:18:47 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.22059592s
+badger 2020/07/09 14:18:47 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:47 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:47 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:47 INFO: Running for level: 0
+badger 2020/07/09 14:18:48 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.224255982s
+badger 2020/07/09 14:18:48 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:48 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:48 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:48 INFO: Running for level: 0
+badger 2020/07/09 14:18:49 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.229950723s
+badger 2020/07/09 14:18:49 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:49 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:49 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:49 INFO: Running for level: 0
+badger 2020/07/09 14:18:50 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.211803552s
+badger 2020/07/09 14:18:50 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:50 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:50 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:50 INFO: Running for level: 0
+badger 2020/07/09 14:18:52 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.249391731s
+badger 2020/07/09 14:18:52 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:52 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:52 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:52 INFO: Running for level: 0
+badger 2020/07/09 14:18:53 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.206918941s
+badger 2020/07/09 14:18:53 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:53 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:53 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:53 INFO: Running for level: 0
+badger 2020/07/09 14:18:54 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.201349105s
+badger 2020/07/09 14:18:54 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:54 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:54 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:54 INFO: Running for level: 0
+badger 2020/07/09 14:18:56 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.429304467s
+badger 2020/07/09 14:18:56 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:56 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:56 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:56 INFO: Running for level: 0
+badger 2020/07/09 14:18:57 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.173468029s
+badger 2020/07/09 14:18:57 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:57 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:57 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:57 INFO: Running for level: 0
+badger 2020/07/09 14:18:58 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.20791637s
+badger 2020/07/09 14:18:58 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:58 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:58 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:58 INFO: Running for level: 0
+badger 2020/07/09 14:18:59 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.185397673s
+badger 2020/07/09 14:18:59 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:18:59 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:18:59 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:18:59 INFO: Running for level: 0
+badger 2020/07/09 14:19:01 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.193290183s
+badger 2020/07/09 14:19:01 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:19:01 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:19:01 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:19:01 INFO: Running for level: 0
+badger 2020/07/09 14:19:02 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.2482524s
+badger 2020/07/09 14:19:02 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:19:02 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:19:02 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:19:02 INFO: Running for level: 0
+badger 2020/07/09 14:19:03 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.186824467s
+badger 2020/07/09 14:19:03 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:19:03 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:19:03 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:19:03 INFO: Running for level: 0
+badger 2020/07/09 14:19:04 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.190683484s
+badger 2020/07/09 14:19:04 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:19:04 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:19:04 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:19:04 INFO: Running for level: 0
+badger 2020/07/09 14:19:06 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.200041273s
+badger 2020/07/09 14:19:06 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:19:06 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:19:06 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:19:06 INFO: Running for level: 0
+badger 2020/07/09 14:19:07 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.190483053s
+badger 2020/07/09 14:19:07 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:19:07 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:19:07 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:19:07 INFO: Running for level: 0
+badger 2020/07/09 14:19:08 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.218456644s
+badger 2020/07/09 14:19:08 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:19:08 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:19:08 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:19:08 INFO: Running for level: 0
+badger 2020/07/09 14:19:09 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.219270083s
+badger 2020/07/09 14:19:09 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:19:09 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:19:09 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:19:09 INFO: Running for level: 0
+badger 2020/07/09 14:19:11 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.198220294s
+badger 2020/07/09 14:19:11 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:19:11 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:19:11 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:19:11 INFO: Running for level: 0
+badger 2020/07/09 14:19:12 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.429591955s
+badger 2020/07/09 14:19:12 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:19:12 INFO: Force compaction on level 0 done
+badger 2020/07/09 14:19:12 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+badger 2020/07/09 14:19:12 INFO: Running for level: 0
+badger 2020/07/09 14:19:13 INFO: LOG Compact 0->1, del 3 tables, add 3 tables, took 1.197561492s
+badger 2020/07/09 14:19:13 INFO: Compaction for level: 0 DONE
+badger 2020/07/09 14:19:13 INFO: Force compaction on level 0 done
+goos: linux
+goarch: amd64
+pkg: github.com/dgraph-io/bigmap
+BenchmarkSet1Mil-16    	       1	225800298201 ns/op
+PASS
+ok  	github.com/dgraph-io/bigmap	226.450s
