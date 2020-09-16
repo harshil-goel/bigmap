@@ -3,7 +3,6 @@ package bigmap
 import (
 	"encoding/binary"
 	"errors"
-	"fmt"
 	"io/ioutil"
 	"log"
 	"os"
@@ -66,7 +65,7 @@ func (b *channelBuffer) remove(i int) {
 
 type BigMap struct {
 	shards  []*shard
-	writers []*writer
+	writers *writer
 
 	pool  sync.Pool
 	cache *ristretto.Cache
@@ -81,7 +80,6 @@ type BigMap struct {
 
 type Config struct {
 	NumMapShards int
-	NumBadgers   int
 
 	LenMaxMap       int
 	LenPreAllocxMap int
@@ -119,7 +117,7 @@ func NewBigMap(config *Config) (*BigMap, error) {
 
 	bm := &BigMap{
 		shards:  make([]*shard, config.NumMapShards),
-		writers: make([]*writer, config.NumBadgers),
+		writers: nil,
 		cache:   cache,
 		maxCap:  config.LenMaxMap,
 		pool: sync.Pool{New: func() interface{} {
@@ -128,40 +126,34 @@ func NewBigMap(config *Config) (*BigMap, error) {
 		dir: tmpDir,
 	}
 
-	for i := range bm.writers {
-		dir, err := ioutil.TempDir(tmpDir, fmt.Sprintf("shard-%d", i))
-		if err != nil {
-			return nil, err
-		}
+	dir, err := ioutil.TempDir(tmpDir, "shard")
+	if err != nil {
+		return nil, err
+	}
 
-		opt := badger.LSMOnlyOptions(dir).WithSyncWrites(false)
+	opt := badger.LSMOnlyOptions(dir).WithSyncWrites(false)
 
-		db, err := badger.Open(opt)
-		if err != nil {
-			return nil, err
-		}
+	db, err := badger.Open(opt)
+	if err != nil {
+		return nil, err
+	}
 
-		bm.writers[i] = &writer{
-			dir:    dir,
-			db:     db,
-			inCh:   make(chan *Input, config.LenChan),
-			inBuff: newChanBuffer(3 * config.LenChan),
-			bl:     z.NewBloomFilter(config.LenBloom, config.LenFalsePos),
-		}
+	bm.writers = &writer{
+		dir:    dir,
+		db:     db,
+		inCh:   make(chan *Input, config.LenChan),
+		inBuff: newChanBuffer(3 * config.LenChan),
+		bl:     z.NewBloomFilter(config.LenBloom, config.LenFalsePos),
+	}
 
-		if config.LenBloom == 0 {
-			bm.writers[i].bl = nil
-		}
+	if config.LenBloom == 0 {
+		bm.writers.bl = nil
 	}
 
 	for i := range bm.shards {
 		bm.shards[i] = &shard{
 			dict: bm.pool.Get().(map[string]interface{}),
 		}
-	}
-
-	if len(bm.writers) == 0 {
-		bm.writers = []*writer{nil}
 	}
 
 	bm.varToBytes = func(value interface{}) []byte {
@@ -175,9 +167,9 @@ func NewBigMap(config *Config) (*BigMap, error) {
 		return 10 * int64(len(key))
 	}
 
-	dump := func(h *shard, k, i int) {
-		writer := bm.writers[i].db.NewWriteBatch()
-		uidMap := (bm.writers[i].inBuff.buffer[k])
+	dump := func(h *shard, k int) {
+		writer := bm.writers.db.NewWriteBatch()
+		uidMap := (bm.writers.inBuff.buffer[k])
 		for key, value := range uidMap {
 			bm.cache.Set(key, value, bm.cacheCost(key))
 			if err := writer.Set([]byte(key), bm.varToBytes(value)); err != nil {
@@ -187,42 +179,32 @@ func NewBigMap(config *Config) (*BigMap, error) {
 
 		// need to put a lock because if we remove the data from memory before it's 
 		// flushed to badger, reads will get wrong value
-		bm.writers[i].Lock()
+		bm.writers.Lock()
 		bm.pool.Put(uidMap)
-		bm.writers[i].inBuff.remove(k)
+		bm.writers.inBuff.remove(k)
 		writer.Flush()
-		bm.writers[i].Unlock()
+		bm.writers.Unlock()
 	}
 
-	bm.inwg.Add(config.NumBadgers)
-	for i := 0; i < int(config.NumBadgers); i++ {
-		go func(bm *BigMap, bindex int) {
-			for i := range bm.writers[bindex].inCh {
-				dump(i.sh, i.bP, bindex)
-			}
-			bm.inwg.Done()
-		}(bm, i)
-	}
+	bm.inwg.Add(1)
+	go func(bm *BigMap) {
+		for i := range bm.writers.inCh {
+			dump(i.sh, i.bP)
+		}
+		bm.inwg.Done()
+	}(bm)
 
 	return bm, nil
 }
 
-func (b *BigMap) getShardAndWriterI(key []byte) (uint32, uint32) {
+func (b *BigMap) getShard(key []byte) *shard {
 	fp := farm.Fingerprint32([]byte(key))
 	shard_i := fp % uint32(len(b.shards))
-	writer_i := fp % uint32(len(b.writers))
-	return shard_i, writer_i
-}
-
-func (b *BigMap) getShardAndWriter(key []byte) (*shard, *writer) {
-	fp := farm.Fingerprint32([]byte(key))
-	shard_i := fp % uint32(len(b.shards))
-	writer_i := fp % uint32(len(b.writers))
-	return b.shards[shard_i], b.writers[writer_i]
+	return b.shards[shard_i]
 }
 
 func (b *BigMap) Get(key []byte) interface{} {
-	sh, bsh := b.getShardAndWriter(key)
+	sh := b.getShard(key)
 
 	sh.RLock()
 	val := sh.dict[string(key)]
@@ -235,19 +217,19 @@ func (b *BigMap) Get(key []byte) interface{} {
 	fp := farm.Fingerprint64(key)
 
 	var valCopy []byte
-	if bsh.bl != nil && bsh.bl.Has(fp) {
-		bsh.RLock()
-		for _, i := range bsh.inBuff.buffer {
+	if b.writers.bl.Has(fp) {
+		b.writers.RLock()
+		for _, i := range b.writers.inBuff.buffer {
 			if i == nil {
 				continue
 			}
 			val := i[string(key)]
 			if val != nil {
-				bsh.RUnlock()
+				b.writers.RUnlock()
 				return val
 			}
 		}
-		bsh.RUnlock()
+		b.writers.RUnlock()
 
 		if b.cache != nil {
 			if valI, ok := b.cache.Get(key); ok && valI != nil {
@@ -255,7 +237,7 @@ func (b *BigMap) Get(key []byte) interface{} {
 			}
 		}
 
-		err := bsh.db.View(func(txn *badger.Txn) error {
+		err := b.writers.db.View(func(txn *badger.Txn) error {
 			item, err := txn.Get([]byte(string(key)))
 			if err != nil {
 				return err
@@ -278,23 +260,23 @@ func (b *BigMap) Get(key []byte) interface{} {
 }
 
 func (b *BigMap) Set(key []byte, value interface{}) {
-	sh, bsh := b.getShardAndWriter(key)
+	sh := b.getShard(key)
 	sh.Lock()
 	defer sh.Unlock()
 
 	sh.dict[string(key)] = value
 
-	if len(sh.dict) > b.maxCap && bsh != nil {
-		bsh.Lock()
-		bP := bsh.inBuff.insert(sh.dict)
-		bsh.Unlock()
+	if len(sh.dict) > b.maxCap {
+		b.writers.Lock()
+		bP := b.writers.inBuff.insert(sh.dict)
+		b.writers.Unlock()
 		inp := &Input{sh: sh, bP: bP}
-		if bsh.bl != nil {
+		if b.writers.bl != nil {
 			for key := range sh.dict {
-				bsh.bl.Add(farm.Fingerprint64([]byte(key)))
+				b.writers.bl.Add(farm.Fingerprint64([]byte(key)))
 			}
 		}
-		bsh.inCh <- inp
+		b.writers.inCh <- inp
 		// benchmarked to be faster than re-initializing a new map and letting this get gc
 		// since no gc, uses less memory
 		sh.dict = nil
@@ -306,19 +288,9 @@ func (b *BigMap) Set(key []byte, value interface{}) {
 }
 
 func (b *BigMap) Finish() {
-	for _, i := range b.writers {
-		if i == nil {
-			continue
-		}
-		close(i.inCh)
-	}
+	close (b.writers.inCh)
 	b.inwg.Wait()
-	for _, i := range b.writers {
-		if i == nil {
-			continue
-		}
-		i.db.Close()
-		os.RemoveAll(i.dir)
-	}
+	b.writers.db.Close()
+	os.RemoveAll(b.writers.dir)
 	os.RemoveAll(b.dir)
 }

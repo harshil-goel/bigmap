@@ -111,7 +111,6 @@ func benchRandomConfig(b *testing.B, c *Config, n int, ratio float64) error {
 func BenchmarkSetSmol(b *testing.B) {
 	c := &Config{
 		NumMapShards:    32,
-		NumBadgers:      8,
 		LenMaxMap:       1000000,
 		LenPreAllocxMap: 1000000,
 		LenBloom:        112345678,
@@ -124,7 +123,6 @@ func BenchmarkSetSmol(b *testing.B) {
 func BenchmarkSetBigNoRes(b *testing.B) {
 	c := &Config{
 		NumMapShards:    32,
-		NumBadgers:      0,
 		LenMaxMap:       10000000000,
 		LenPreAllocxMap: 0,
 		LenBloom:        0,
@@ -137,7 +135,6 @@ func BenchmarkSetBigNoRes(b *testing.B) {
 func BenchmarkSetNoRes(b *testing.B) {
 	c := &Config{
 		NumMapShards:    32,
-		NumBadgers:      0,
 		LenMaxMap:       10000000000,
 		LenPreAllocxMap: 0,
 		LenBloom:        0,
@@ -150,7 +147,6 @@ func BenchmarkSetNoRes(b *testing.B) {
 func BenchmarkSetNoAllocBig1Mil(b *testing.B) {
 	c := &Config{
 		NumMapShards:    32,
-		NumBadgers:      8,
 		LenMaxMap:       1000000,
 		LenPreAllocxMap: 1000,
 		LenBloom:        112345678,
@@ -163,7 +159,6 @@ func BenchmarkSetNoAllocBig1Mil(b *testing.B) {
 func BenchmarkSetBigBig1Mil(b *testing.B) {
 	c := &Config{
 		NumMapShards:    32,
-		NumBadgers:      4,
 		LenMaxMap:       1000000,
 		LenPreAllocxMap: 1000000,
 		LenBloom:        112345678,
@@ -176,7 +171,6 @@ func BenchmarkSetBigBig1Mil(b *testing.B) {
 func BenchmarkSetBig1Mil(b *testing.B) {
 	c := &Config{
 		NumMapShards:    32,
-		NumBadgers:      8,
 		LenMaxMap:       1000000,
 		LenPreAllocxMap: 1000000,
 		LenBloom:        112345678,
@@ -189,40 +183,6 @@ func BenchmarkSetBig1Mil(b *testing.B) {
 func BenchmarkRandInit(b *testing.B) {
 	c := &Config{
 		NumMapShards:    32,
-		NumBadgers:      0,
-		LenMaxMap:       10000000000,
-		LenPreAllocxMap: 0,
-		LenBloom:        0,
-		LenFalsePos:     0.1,
-		LenChan:         16,
-	}
-	if err := benchRandomConfig(b, c, 4000000000, 0.5); err != nil {
-		fmt.Println(err.Error())
-		return
-	}
-}
-
-func BenchmarkRand1Mil(b *testing.B) {
-	c := &Config{
-		NumMapShards:    32,
-		NumBadgers:      8,
-		LenMaxMap:       100000,
-		LenPreAllocxMap: 100000,
-		LenBloom:        112345678,
-		LenFalsePos:     0.1,
-		LenChan:         4,
-	}
-	if err := benchRandomConfig(b, c, 500000000, 0.5); err != nil {
-		fmt.Println(err.Error())
-		return
-	}
-}
-
-func BenchmarkSet1Mil(b *testing.B) {
-	fmt.Println("here1")
-	c := &Config{
-		NumMapShards:    32,
-		NumBadgers:      1,
 		LenMaxMap:       100000,
 		LenPreAllocxMap: 100000,
 		LenBloom:        112345678,
