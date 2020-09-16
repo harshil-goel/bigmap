@@ -6,6 +6,7 @@ import (
 	"log"
 	"math/rand"
 	"os"
+	"runtime"
 	"runtime/pprof"
 	"strconv"
 	"testing"
@@ -211,21 +212,55 @@ func BenchmarkRand1Mil(b *testing.B) {
 		LenFalsePos:     0.1,
 		LenChan:         4,
 	}
-	if err := benchRandomConfig(b, c, 1000000000, 0.5); err != nil {
+	if err := benchRandomConfig(b, c, 500000000, 0.5); err != nil {
 		fmt.Println(err.Error())
 		return
 	}
 }
 
 func BenchmarkSet1Mil(b *testing.B) {
+	fmt.Println("here1")
 	c := &Config{
 		NumMapShards:    32,
-		NumBadgers:      8,
+		NumBadgers:      1,
 		LenMaxMap:       100000,
 		LenPreAllocxMap: 100000,
 		LenBloom:        112345678,
 		LenFalsePos:     0.1,
-		LenChan:         4,
+		LenChan:         64,
 	}
-	benchSetConfig(b, c, 2000000000)
+	benchSetConfig(b, c, 500000000)
+}
+
+func BenchmarkPool(b *testing.B) {
+	var mem runtime.MemStats
+
+	k:= 0
+
+	s := 1000000
+	m := make(map[int]int, s)
+
+	for i := 0; i<10000; i++ {
+		fmt.Println(i)
+		for j := 0; j<s; j++ {
+			k += 1
+			m[k] = j
+		}	
+
+        	runtime.ReadMemStats(&mem)
+		fmt.Printf("Sys = %v MiB\n", bToMb(mem.Sys))
+		
+		for key := range m {
+			delete(m, key)
+		}
+
+        	runtime.ReadMemStats(&mem)
+		fmt.Printf("Sys = %v MiB\n", bToMb(mem.Sys))
+		
+	}
+}
+
+
+func bToMb(b uint64) uint64 {
+    return b / 1024 / 1024
 }

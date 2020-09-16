@@ -1,0 +1,7 @@
+Here
+here1
+badger 2020/09/16 13:24:48 INFO: All 0 tables opened in 0s
+badger 2020/09/16 13:24:48 INFO: No head keys found
+INFO 0 0
+INFO 8 1000000
+badger 2020/09/16 13:24:58 INFO: Storing value log head: {Fid:1 Len:34 Offset:11262677}

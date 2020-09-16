@@ -57,6 +57,8 @@ github.com/dgraph-io/badger v1.6.1 h1:w9pSFNSdq/JPM1N12Fz/F/bzo993Is1W+Q7HjPzi7y
 github.com/dgraph-io/badger v1.6.1/go.mod h1:FRmFw3uxvcpa8zG3Rxs0th+hCLIuaQg8HlNV5bjgnuU=
 github.com/dgraph-io/badger/v2 v2.0.1-rc1.0.20200528205344-e7b6e76f96e8 h1:TDpSSjrjipVJHEpcimd7uRYqiIeMc1LsM7p2tgEl+s8=
 github.com/dgraph-io/badger/v2 v2.0.1-rc1.0.20200528205344-e7b6e76f96e8/go.mod h1:3KY8+bsP8wI0OEnQJAKpd4wIJW/Mm32yw2j/9FUVnIM=
+github.com/dgraph-io/badger/v2 v2.0.1-rc1.0.20200915114212-59c9d41e460a h1:EoDdhqC3wdc8MGOFBvszoEu3rWQVjX/AUCYnRxz1muE=
+github.com/dgraph-io/badger/v2 v2.0.1-rc1.0.20200915114212-59c9d41e460a/go.mod h1:2uGEvGm+JSDLd5UAaKIFSbXDcYyeH0fWJP4N2HMMYMI=
 github.com/dgraph-io/dgo/v2 v2.1.1-0.20191127085444-c7a02678e8a6 h1:5leDFqGys055YO3TbghBhk/QdRPEwyLPdgsSJfiR20I=
 github.com/dgraph-io/dgo/v2 v2.1.1-0.20191127085444-c7a02678e8a6/go.mod h1:LJCkLxm5fUMcU+yb8gHFjHt7ChgNuz3YnQQ6MQkmscI=
 github.com/dgraph-io/dgraph v1.2.5 h1:S2MulWBV37LHtS5hLqwzNa8cia9Yhn/NRV8KHShf4nE=
@@ -65,6 +67,8 @@ github.com/dgraph-io/ristretto v0.0.2-0.20200115201040-8f368f2f2ab3/go.mod h1:KP
 github.com/dgraph-io/ristretto v0.0.2/go.mod h1:KPxhHT9ZxKefz+PCeOGsrHpl1qZ7i70dGTu2u+Ahh6E=
 github.com/dgraph-io/ristretto v0.0.3 h1:jh22xisGBjrEVnRZ1DVTpBVQm0Xndu8sMl0CWDzSIBI=
 github.com/dgraph-io/ristretto v0.0.3/go.mod h1:KPxhHT9ZxKefz+PCeOGsrHpl1qZ7i70dGTu2u+Ahh6E=
+github.com/dgraph-io/ristretto v0.0.4-0.20200906165740-41ebdbffecfd h1:KoJOtZf+6wpQaDTuOWGuo61GxcPBIfhwRxRTaTWGCTc=
+github.com/dgraph-io/ristretto v0.0.4-0.20200906165740-41ebdbffecfd/go.mod h1:YylP9MpCYGVZQrly/j/diqcdUetCRRePeBB0c2VGXsA=
 github.com/dgrijalva/jwt-go v3.2.0+incompatible/go.mod h1:E3ru+11k8xSBh+hMPgOLZmtrrCbhqsmaPHjLKYnJCaQ=
 github.com/dgryski/go-farm v0.0.0-20190423205320-6a90982ecee2 h1:tdlZCpZ/P9DhczCTSixgIKmwPv6+wP5DGjqLYw5SUiA=
 github.com/dgryski/go-farm v0.0.0-20190423205320-6a90982ecee2/go.mod h1:SqUrOPUnsFjfmXRMNPybcSiG0BgUW2AuFH8PAnS2iTw=

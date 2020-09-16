@@ -171,7 +171,8 @@ func NewBigMap(config *Config) (*BigMap, error) {
 	}
 
 	bm.cacheCost = func(key string) int64 {
-		return 2 * int64(len(key))
+		// reducing this causes OOM but increases speed
+		return 10 * int64(len(key))
 	}
 
 	dump := func(h *shard, k, i int) {
@@ -184,6 +185,8 @@ func NewBigMap(config *Config) (*BigMap, error) {
 			}
 		}
 
+		// need to put a lock because if we remove the data from memory before it's 
+		// flushed to badger, reads will get wrong value
 		bm.writers[i].Lock()
 		bm.pool.Put(uidMap)
 		bm.writers[i].inBuff.remove(k)
@@ -292,6 +295,8 @@ func (b *BigMap) Set(key []byte, value interface{}) {
 			}
 		}
 		bsh.inCh <- inp
+		// benchmarked to be faster than re-initializing a new map and letting this get gc
+		// since no gc, uses less memory
 		sh.dict = nil
 		sh.dict = b.pool.Get().(map[string]interface{})
 		for key := range sh.dict {
