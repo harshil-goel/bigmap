@@ -168,11 +168,12 @@ func BenchmarkSetBigBig1Mil(b *testing.B) {
 	benchSetConfig(b, c, 1000000000)
 }
 
-func BenchmarkSetBig1Mil(b *testing.B) {
+func BenchmarkSet1Mil(b *testing.B) {
+	fmt.Println("here1")
 	c := &Config{
 		NumMapShards:    32,
-		LenMaxMap:       1000000,
-		LenPreAllocxMap: 1000000,
+		LenMaxMap:       100000,
+		LenPreAllocxMap: 100000,
 		LenBloom:        112345678,
 		LenFalsePos:     0.1,
 		LenChan:         4,

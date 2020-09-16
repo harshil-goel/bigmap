@@ -1,0 +1,2352 @@
+Here
+here1
+badger 2020/09/16 14:09:10 INFO: All 0 tables opened in 0s
+badger 2020/09/16 14:09:10 INFO: No head keys found
+INFO 0 0
+INFO 0 1000000
+INFO 0 2000000
+INFO 0 3000000
+badger 2020/09/16 14:09:15 INFO: Storing value log head: {Fid:1 Len:30 Offset:9496330}
+badger 2020/09/16 14:09:19 INFO: Storing value log head: {Fid:2 Len:30 Offset:18992208}
+INFO 10 4000000
+INFO 10 5000000
+INFO 10 6000000
+badger 2020/09/16 14:09:23 INFO: Storing value log head: {Fid:3 Len:30 Offset:28731453}
+badger 2020/09/16 14:09:27 INFO: Storing value log head: {Fid:5 Len:30 Offset:6400114}
+INFO 19 7000000
+INFO 20 8000000
+INFO 20 9000000
+badger 2020/09/16 14:09:32 INFO: Storing value log head: {Fid:6 Len:30 Offset:16000300}
+badger 2020/09/16 14:09:32 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:09:34 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 2.165693114s
+badger 2020/09/16 14:09:34 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:09:36 INFO: Storing value log head: {Fid:7 Len:30 Offset:25600486}
+badger 2020/09/16 14:09:40 INFO: Storing value log head: {Fid:8 Len:30 Offset:28800548}
+INFO 30 10000000
+INFO 31 11000000
+INFO 31 12000000
+badger 2020/09/16 14:09:44 INFO: Storing value log head: {Fid:10 Len:31 Offset:6574497}
+badger 2020/09/16 14:09:48 INFO: Storing value log head: {Fid:11 Len:31 Offset:16437317}
+INFO 40 13000000
+INFO 41 14000000
+INFO 41 15000000
+badger 2020/09/16 14:09:52 INFO: Storing value log head: {Fid:12 Len:31 Offset:26305722}
+badger 2020/09/16 14:09:53 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 44 16000000
+badger 2020/09/16 14:09:56 INFO: Storing value log head: {Fid:13 Len:31 Offset:29700565}
+badger 2020/09/16 14:09:57 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 3.945823843s
+badger 2020/09/16 14:09:57 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:09:57 INFO: [Compactor: 0] Running compaction: {level:1 score:1.537573792040348 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:09:57 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 724.421358ms
+badger 2020/09/16 14:09:57 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:09:57 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2653378769755363 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:09:58 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 718.096594ms
+badger 2020/09/16 14:09:58 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:10:00 INFO: Storing value log head: {Fid:15 Len:31 Offset:3300053}
+INFO 52 17000000
+INFO 52 18000000
+INFO 52 19000000
+badger 2020/09/16 14:10:04 INFO: Storing value log head: {Fid:16 Len:31 Offset:9900181}
+badger 2020/09/16 14:10:08 INFO: Storing value log head: {Fid:17 Len:31 Offset:16500309}
+badger 2020/09/16 14:10:12 INFO: Storing value log head: {Fid:18 Len:31 Offset:23100437}
+INFO 62 20000000
+INFO 62 21000000
+badger 2020/09/16 14:10:12 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 62 22000000
+badger 2020/09/16 14:10:14 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 1.712004912s
+badger 2020/09/16 14:10:14 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:10:14 INFO: [Compactor: 0] Running compaction: {level:1 score:1.7058814130723476 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:10:15 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.14764564s
+badger 2020/09/16 14:10:15 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:10:15 INFO: [Compactor: 0] Running compaction: {level:1 score:1.433639656752348 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:10:15 INFO: Storing value log head: {Fid:19 Len:31 Offset:29700565}
+badger 2020/09/16 14:10:16 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 745.530482ms
+badger 2020/09/16 14:10:16 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:10:16 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1614661552011967 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:10:16 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 706.010701ms
+badger 2020/09/16 14:10:16 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:10:19 INFO: Storing value log head: {Fid:21 Len:31 Offset:3300053}
+INFO 72 23000000
+INFO 72 24000000
+INFO 72 25000000
+badger 2020/09/16 14:10:23 INFO: Storing value log head: {Fid:22 Len:31 Offset:9900181}
+badger 2020/09/16 14:10:27 INFO: Storing value log head: {Fid:23 Len:31 Offset:16500309}
+badger 2020/09/16 14:10:30 INFO: Storing value log head: {Fid:24 Len:31 Offset:23100437}
+badger 2020/09/16 14:10:31 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 81 26000000
+INFO 82 27000000
+INFO 82 28000000
+badger 2020/09/16 14:10:33 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 2.672916726s
+badger 2020/09/16 14:10:33 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:10:33 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6190630234777927 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:10:34 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 512.533294ms
+badger 2020/09/16 14:10:34 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:10:34 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4424422346055508 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:10:34 INFO: Storing value log head: {Fid:25 Len:31 Offset:29700565}
+badger 2020/09/16 14:10:36 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.850161473s
+badger 2020/09/16 14:10:36 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:10:36 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1702003218233585 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:10:37 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.246294459s
+badger 2020/09/16 14:10:37 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:10:38 INFO: Storing value log head: {Fid:27 Len:31 Offset:3300053}
+INFO 92 29000000
+badger 2020/09/16 14:10:42 INFO: Storing value log head: {Fid:28 Len:31 Offset:9900181}
+INFO 92 30000000
+INFO 93 31000000
+badger 2020/09/16 14:10:46 INFO: Storing value log head: {Fid:29 Len:31 Offset:16500309}
+INFO 96 32000000
+badger 2020/09/16 14:10:49 INFO: Storing value log head: {Fid:30 Len:31 Offset:23100437}
+badger 2020/09/16 14:10:50 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 102 33000000
+INFO 102 34000000
+INFO 103 35000000
+badger 2020/09/16 14:10:53 INFO: LOG Compact 0->1, del 8 tables, add 5 tables, took 3.292544482s
+badger 2020/09/16 14:10:53 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:10:53 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6267853192985058 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:10:54 INFO: Storing value log head: {Fid:31 Len:31 Offset:29700565}
+badger 2020/09/16 14:10:54 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.29394271s
+badger 2020/09/16 14:10:54 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:10:54 INFO: [Compactor: 0] Running compaction: {level:1 score:1.3545434474945068 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:10:56 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.239641148s
+badger 2020/09/16 14:10:56 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:10:56 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0823015607893467 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:10:56 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 801.994804ms
+badger 2020/09/16 14:10:56 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:10:58 INFO: Storing value log head: {Fid:33 Len:31 Offset:3300053}
+badger 2020/09/16 14:11:01 INFO: Storing value log head: {Fid:34 Len:31 Offset:9900181}
+INFO 113 36000000
+INFO 113 37000000
+INFO 113 38000000
+badger 2020/09/16 14:11:05 INFO: Storing value log head: {Fid:35 Len:31 Offset:16500309}
+badger 2020/09/16 14:11:09 INFO: Storing value log head: {Fid:36 Len:31 Offset:23100437}
+badger 2020/09/16 14:11:09 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 123 39000000
+badger 2020/09/16 14:11:13 INFO: Storing value log head: {Fid:37 Len:31 Offset:29700565}
+badger 2020/09/16 14:11:13 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 3.641181857s
+badger 2020/09/16 14:11:13 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:11:13 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5334890857338905 dropPrefixes:[]} for level: 1
+INFO 123 40000000
+INFO 123 41000000
+badger 2020/09/16 14:11:15 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.499521829s
+badger 2020/09/16 14:11:15 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:11:15 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2612472474575043 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:11:16 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.230525416s
+badger 2020/09/16 14:11:16 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:11:17 INFO: Storing value log head: {Fid:39 Len:31 Offset:3300053}
+badger 2020/09/16 14:11:21 INFO: Storing value log head: {Fid:40 Len:31 Offset:9900181}
+INFO 133 42000000
+INFO 133 43000000
+INFO 133 44000000
+badger 2020/09/16 14:11:24 INFO: Storing value log head: {Fid:41 Len:31 Offset:16500309}
+badger 2020/09/16 14:11:28 INFO: Storing value log head: {Fid:42 Len:31 Offset:23100437}
+badger 2020/09/16 14:11:29 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:11:32 INFO: Storing value log head: {Fid:43 Len:31 Offset:29700565}
+badger 2020/09/16 14:11:33 INFO: LOG Compact 0->1, del 9 tables, add 7 tables, took 4.044011253s
+badger 2020/09/16 14:11:33 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:11:33 INFO: [Compactor: 0] Running compaction: {level:1 score:1.7174765765666962 dropPrefixes:[]} for level: 1
+INFO 143 45000000
+INFO 144 46000000
+INFO 144 47000000
+badger 2020/09/16 14:11:34 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.448933998s
+badger 2020/09/16 14:11:34 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:11:34 INFO: [Compactor: 0] Running compaction: {level:1 score:1.445234727114439 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:11:35 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.251475597s
+badger 2020/09/16 14:11:35 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:11:35 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1729928255081177 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:11:36 INFO: Storing value log head: {Fid:45 Len:31 Offset:3300053}
+badger 2020/09/16 14:11:37 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.338971576s
+badger 2020/09/16 14:11:37 INFO: [Compactor: 0] Compaction for level: 1 DONE
+INFO 147 48000000
+badger 2020/09/16 14:11:40 INFO: Storing value log head: {Fid:46 Len:31 Offset:9900181}
+badger 2020/09/16 14:11:44 INFO: Storing value log head: {Fid:47 Len:31 Offset:16500309}
+INFO 154 49000000
+INFO 154 50000000
+INFO 154 51000000
+badger 2020/09/16 14:11:47 INFO: Storing value log head: {Fid:48 Len:31 Offset:23100437}
+badger 2020/09/16 14:11:48 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:11:51 INFO: Storing value log head: {Fid:49 Len:31 Offset:29700565}
+badger 2020/09/16 14:11:52 INFO: LOG Compact 0->1, del 9 tables, add 6 tables, took 4.103498074s
+badger 2020/09/16 14:11:52 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:11:52 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6290398687124252 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:11:53 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.213606007s
+badger 2020/09/16 14:11:53 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:11:53 INFO: [Compactor: 0] Running compaction: {level:1 score:1.356797955930233 dropPrefixes:[]} for level: 1
+INFO 164 52000000
+INFO 164 53000000
+INFO 164 54000000
+badger 2020/09/16 14:11:54 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.260070304s
+badger 2020/09/16 14:11:54 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:11:54 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0845560654997826 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:11:55 INFO: Storing value log head: {Fid:51 Len:31 Offset:3300053}
+badger 2020/09/16 14:11:56 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.703589087s
+badger 2020/09/16 14:11:56 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:11:59 INFO: Storing value log head: {Fid:52 Len:31 Offset:9900181}
+badger 2020/09/16 14:12:03 INFO: Storing value log head: {Fid:53 Len:31 Offset:16500309}
+INFO 174 55000000
+INFO 174 56000000
+INFO 175 57000000
+badger 2020/09/16 14:12:06 INFO: Storing value log head: {Fid:54 Len:31 Offset:23100437}
+badger 2020/09/16 14:12:07 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:12:11 INFO: Storing value log head: {Fid:55 Len:31 Offset:29700565}
+badger 2020/09/16 14:12:11 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 3.885745301s
+badger 2020/09/16 14:12:11 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:12:11 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5351992100477219 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:12:12 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.277251155s
+badger 2020/09/16 14:12:12 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:12:12 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2629572972655296 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:12:13 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.227127639s
+badger 2020/09/16 14:12:13 INFO: [Compactor: 0] Compaction for level: 1 DONE
+INFO 185 58000000
+badger 2020/09/16 14:12:15 INFO: Storing value log head: {Fid:57 Len:31 Offset:3300053}
+INFO 185 59000000
+INFO 185 60000000
+badger 2020/09/16 14:12:18 INFO: Storing value log head: {Fid:58 Len:31 Offset:9900181}
+badger 2020/09/16 14:12:22 INFO: Storing value log head: {Fid:59 Len:31 Offset:16500309}
+INFO 194 61000000
+INFO 195 62000000
+INFO 195 63000000
+badger 2020/09/16 14:12:26 INFO: Storing value log head: {Fid:60 Len:31 Offset:23100437}
+badger 2020/09/16 14:12:26 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 199 64000000
+badger 2020/09/16 14:12:30 INFO: Storing value log head: {Fid:61 Len:31 Offset:29700565}
+badger 2020/09/16 14:12:31 INFO: LOG Compact 0->1, del 9 tables, add 7 tables, took 4.26804952s
+badger 2020/09/16 14:12:31 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:12:31 INFO: [Compactor: 0] Running compaction: {level:1 score:1.7181755565106869 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:12:32 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.239972972s
+badger 2020/09/16 14:12:32 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:12:32 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4459336549043655 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:12:33 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.256304282s
+badger 2020/09/16 14:12:33 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:12:33 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1736917309463024 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:12:34 INFO: Storing value log head: {Fid:63 Len:31 Offset:3300053}
+badger 2020/09/16 14:12:34 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.33109489s
+badger 2020/09/16 14:12:34 INFO: [Compactor: 0] Compaction for level: 1 DONE
+INFO 205 65000000
+INFO 205 66000000
+INFO 206 67000000
+badger 2020/09/16 14:12:38 INFO: Storing value log head: {Fid:64 Len:31 Offset:9900181}
+badger 2020/09/16 14:12:42 INFO: Storing value log head: {Fid:65 Len:31 Offset:16500309}
+badger 2020/09/16 14:12:45 INFO: Storing value log head: {Fid:66 Len:31 Offset:23100437}
+INFO 215 68000000
+INFO 216 69000000
+badger 2020/09/16 14:12:46 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 216 70000000
+badger 2020/09/16 14:12:49 INFO: Storing value log head: {Fid:67 Len:31 Offset:29700565}
+badger 2020/09/16 14:12:50 INFO: LOG Compact 0->1, del 9 tables, add 6 tables, took 4.177578061s
+badger 2020/09/16 14:12:50 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:12:50 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6304526440799236 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:12:51 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.220600151s
+badger 2020/09/16 14:12:51 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:12:51 INFO: [Compactor: 0] Running compaction: {level:1 score:1.358210727572441 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:12:53 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.327180347s
+badger 2020/09/16 14:12:53 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:12:53 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0859688185155392 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:12:53 INFO: Storing value log head: {Fid:69 Len:31 Offset:3300053}
+badger 2020/09/16 14:12:54 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.431328669s
+badger 2020/09/16 14:12:54 INFO: [Compactor: 0] Compaction for level: 1 DONE
+INFO 226 71000000
+INFO 226 72000000
+INFO 226 73000000
+badger 2020/09/16 14:12:57 INFO: Storing value log head: {Fid:70 Len:31 Offset:9900181}
+badger 2020/09/16 14:13:01 INFO: Storing value log head: {Fid:71 Len:31 Offset:16500309}
+badger 2020/09/16 14:13:05 INFO: Storing value log head: {Fid:72 Len:31 Offset:23100437}
+badger 2020/09/16 14:13:05 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 236 74000000
+INFO 236 75000000
+INFO 237 76000000
+badger 2020/09/16 14:13:09 INFO: Storing value log head: {Fid:73 Len:31 Offset:29700565}
+badger 2020/09/16 14:13:09 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 3.963571258s
+badger 2020/09/16 14:13:09 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:13:09 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5376393906772137 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:13:11 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.683688139s
+badger 2020/09/16 14:13:11 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:13:11 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2653974667191505 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:13:12 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.219288534s
+badger 2020/09/16 14:13:12 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:13:13 INFO: Storing value log head: {Fid:75 Len:31 Offset:3300053}
+INFO 247 77000000
+badger 2020/09/16 14:13:17 INFO: Storing value log head: {Fid:76 Len:31 Offset:9900181}
+INFO 247 78000000
+INFO 247 79000000
+badger 2020/09/16 14:13:21 INFO: Storing value log head: {Fid:77 Len:31 Offset:16500309}
+INFO 251 80000000
+badger 2020/09/16 14:13:24 INFO: Storing value log head: {Fid:78 Len:31 Offset:23100437}
+badger 2020/09/16 14:13:25 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 257 81000000
+INFO 257 82000000
+INFO 258 83000000
+badger 2020/09/16 14:13:28 INFO: Storing value log head: {Fid:79 Len:31 Offset:29700565}
+badger 2020/09/16 14:13:29 INFO: LOG Compact 0->1, del 9 tables, add 7 tables, took 4.260700683s
+badger 2020/09/16 14:13:29 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:13:29 INFO: [Compactor: 0] Running compaction: {level:1 score:1.7220083177089691 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:13:30 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.227382655s
+badger 2020/09/16 14:13:30 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:13:30 INFO: [Compactor: 0] Running compaction: {level:1 score:1.449766494333744 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:13:32 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.320920006s
+badger 2020/09/16 14:13:32 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:13:32 INFO: [Compactor: 0] Running compaction: {level:1 score:1.177524659782648 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:13:32 INFO: Storing value log head: {Fid:81 Len:31 Offset:3300053}
+badger 2020/09/16 14:13:33 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.379343935s
+badger 2020/09/16 14:13:33 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:13:36 INFO: Storing value log head: {Fid:82 Len:31 Offset:9900181}
+INFO 267 84000000
+INFO 268 85000000
+INFO 268 86000000
+badger 2020/09/16 14:13:40 INFO: Storing value log head: {Fid:83 Len:31 Offset:16500309}
+badger 2020/09/16 14:13:44 INFO: Storing value log head: {Fid:84 Len:31 Offset:23100437}
+badger 2020/09/16 14:13:44 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 277 87000000
+badger 2020/09/16 14:13:48 INFO: Storing value log head: {Fid:85 Len:31 Offset:29700565}
+INFO 278 88000000
+badger 2020/09/16 14:13:48 INFO: LOG Compact 0->1, del 9 tables, add 7 tables, took 3.907463743s
+badger 2020/09/16 14:13:48 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:13:48 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6338579468429089 dropPrefixes:[]} for level: 1
+INFO 278 89000000
+badger 2020/09/16 14:13:49 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.421727971s
+badger 2020/09/16 14:13:49 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:13:49 INFO: [Compactor: 0] Running compaction: {level:1 score:1.3616160564124584 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:13:51 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.234582832s
+badger 2020/09/16 14:13:51 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:13:51 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0893741697072983 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:13:51 INFO: Storing value log head: {Fid:87 Len:31 Offset:3300053}
+badger 2020/09/16 14:13:52 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.357387463s
+badger 2020/09/16 14:13:52 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:13:55 INFO: Storing value log head: {Fid:88 Len:31 Offset:9900181}
+INFO 287 90000000
+INFO 288 91000000
+INFO 288 92000000
+badger 2020/09/16 14:13:59 INFO: Storing value log head: {Fid:89 Len:31 Offset:16500309}
+badger 2020/09/16 14:14:03 INFO: Storing value log head: {Fid:90 Len:31 Offset:23100437}
+badger 2020/09/16 14:14:03 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:14:07 INFO: Storing value log head: {Fid:91 Len:31 Offset:29700565}
+badger 2020/09/16 14:14:07 INFO: LOG Compact 0->1, del 9 tables, add 6 tables, took 3.626996178s
+badger 2020/09/16 14:14:07 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:14:07 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5403513759374619 dropPrefixes:[]} for level: 1
+INFO 298 93000000
+INFO 298 94000000
+badger 2020/09/16 14:14:08 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.26479883s
+badger 2020/09/16 14:14:08 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:14:08 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2681095600128174 dropPrefixes:[]} for level: 1
+INFO 298 95000000
+badger 2020/09/16 14:14:10 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.857578333s
+badger 2020/09/16 14:14:10 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:14:11 INFO: Storing value log head: {Fid:93 Len:31 Offset:3300053}
+INFO 303 96000000
+badger 2020/09/16 14:14:14 INFO: Storing value log head: {Fid:94 Len:31 Offset:9900181}
+badger 2020/09/16 14:14:18 INFO: Storing value log head: {Fid:95 Len:31 Offset:16500309}
+INFO 308 97000000
+INFO 308 98000000
+INFO 309 99000000
+badger 2020/09/16 14:14:22 INFO: Storing value log head: {Fid:96 Len:31 Offset:23100437}
+badger 2020/09/16 14:14:22 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:14:26 INFO: Storing value log head: {Fid:97 Len:31 Offset:29700565}
+badger 2020/09/16 14:14:26 INFO: LOG Compact 0->1, del 9 tables, add 7 tables, took 4.112829193s
+badger 2020/09/16 14:14:26 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:14:26 INFO: [Compactor: 0] Running compaction: {level:1 score:1.724179521203041 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:14:27 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 989.540124ms
+badger 2020/09/16 14:14:27 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:14:27 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4519376903772354 dropPrefixes:[]} for level: 1
+INFO 318 100000000
+badger 2020/09/16 14:14:28 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.231475771s
+badger 2020/09/16 14:14:28 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:14:28 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1796957738697529 dropPrefixes:[]} for level: 1
+INFO 319 101000000
+INFO 319 102000000
+badger 2020/09/16 14:14:30 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.115005798s
+badger 2020/09/16 14:14:30 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:14:30 INFO: Storing value log head: {Fid:99 Len:31 Offset:3300053}
+badger 2020/09/16 14:14:34 INFO: Storing value log head: {Fid:100 Len:32 Offset:10124550}
+badger 2020/09/16 14:14:38 INFO: Storing value log head: {Fid:101 Len:32 Offset:16877016}
+INFO 329 103000000
+INFO 329 104000000
+INFO 329 105000000
+badger 2020/09/16 14:14:42 INFO: Storing value log head: {Fid:102 Len:32 Offset:23709095}
+badger 2020/09/16 14:14:42 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:14:46 INFO: Storing value log head: {Fid:103 Len:32 Offset:30600582}
+badger 2020/09/16 14:14:46 INFO: LOG Compact 0->1, del 9 tables, add 7 tables, took 4.060013556s
+badger 2020/09/16 14:14:46 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:14:46 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6360552869737148 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:14:47 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.240666438s
+badger 2020/09/16 14:14:47 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:14:47 INFO: [Compactor: 0] Running compaction: {level:1 score:1.3637514486908913 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:14:50 INFO: LOG Compact 1->2, del 5 tables, add 5 tables, took 2.777509861s
+badger 2020/09/16 14:14:50 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:14:50 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0914967879652977 dropPrefixes:[]} for level: 1
+INFO 340 106000000
+badger 2020/09/16 14:14:51 INFO: Storing value log head: {Fid:105 Len:32 Offset:3400054}
+INFO 341 107000000
+INFO 341 108000000
+badger 2020/09/16 14:14:51 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.066568401s
+badger 2020/09/16 14:14:51 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:14:54 INFO: Storing value log head: {Fid:106 Len:32 Offset:10200186}
+badger 2020/09/16 14:14:58 INFO: Storing value log head: {Fid:107 Len:32 Offset:17000318}
+INFO 350 109000000
+INFO 351 110000000
+INFO 351 111000000
+badger 2020/09/16 14:15:02 INFO: Storing value log head: {Fid:108 Len:32 Offset:23800450}
+badger 2020/09/16 14:15:02 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:15:04 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 1.878319969s
+badger 2020/09/16 14:15:04 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:15:04 INFO: [Compactor: 0] Running compaction: {level:1 score:1.543554026633501 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:15:06 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.291051053s
+badger 2020/09/16 14:15:06 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:15:06 INFO: [Compactor: 0] Running compaction: {level:1 score:1.271250419318676 dropPrefixes:[]} for level: 1
+INFO 356 112000000
+badger 2020/09/16 14:15:06 INFO: Storing value log head: {Fid:109 Len:32 Offset:30600582}
+badger 2020/09/16 14:15:07 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.077512264s
+badger 2020/09/16 14:15:07 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:15:07 INFO: [Compactor: 0] Running compaction: {level:1 score:1.091558512300253 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:15:09 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 2.024401071s
+badger 2020/09/16 14:15:09 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:15:10 INFO: Storing value log head: {Fid:111 Len:32 Offset:3400054}
+INFO 362 113000000
+INFO 362 114000000
+INFO 362 115000000
+badger 2020/09/16 14:15:14 INFO: Storing value log head: {Fid:112 Len:32 Offset:10200186}
+badger 2020/09/16 14:15:18 INFO: Storing value log head: {Fid:113 Len:32 Offset:17000318}
+badger 2020/09/16 14:15:22 INFO: Storing value log head: {Fid:114 Len:32 Offset:23800450}
+INFO 372 116000000
+INFO 372 117000000
+badger 2020/09/16 14:15:22 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 372 118000000
+badger 2020/09/16 14:15:24 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 1.901499172s
+badger 2020/09/16 14:15:24 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:15:24 INFO: [Compactor: 0] Running compaction: {level:1 score:1.544307753443718 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:15:25 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.038087817s
+badger 2020/09/16 14:15:25 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:15:25 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2720041647553444 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:15:26 INFO: Storing value log head: {Fid:115 Len:32 Offset:30600582}
+badger 2020/09/16 14:15:26 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.025710193s
+badger 2020/09/16 14:15:26 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:15:26 INFO: [Compactor: 0] Running compaction: {level:1 score:1.091558787971735 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:15:30 INFO: LOG Compact 1->2, del 6 tables, add 6 tables, took 3.334804528s
+badger 2020/09/16 14:15:30 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:15:30 INFO: Storing value log head: {Fid:117 Len:32 Offset:3400054}
+INFO 382 119000000
+INFO 383 120000000
+INFO 383 121000000
+badger 2020/09/16 14:15:34 INFO: Storing value log head: {Fid:118 Len:32 Offset:10200186}
+badger 2020/09/16 14:15:38 INFO: Storing value log head: {Fid:119 Len:32 Offset:17000318}
+badger 2020/09/16 14:15:42 INFO: Storing value log head: {Fid:120 Len:32 Offset:23800450}
+badger 2020/09/16 14:15:42 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 393 122000000
+INFO 393 123000000
+INFO 394 124000000
+badger 2020/09/16 14:15:44 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 1.869246418s
+badger 2020/09/16 14:15:44 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:15:44 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5454253628849983 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:15:45 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.279003583s
+badger 2020/09/16 14:15:45 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:15:45 INFO: [Compactor: 0] Running compaction: {level:1 score:1.273121539503336 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:15:46 INFO: Storing value log head: {Fid:121 Len:32 Offset:30600582}
+badger 2020/09/16 14:15:47 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.09755485s
+badger 2020/09/16 14:15:47 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:15:47 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0915587544441223 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:15:50 INFO: Storing value log head: {Fid:123 Len:32 Offset:3400054}
+badger 2020/09/16 14:15:51 INFO: LOG Compact 1->2, del 10 tables, add 10 tables, took 4.755011469s
+badger 2020/09/16 14:15:51 INFO: [Compactor: 0] Compaction for level: 1 DONE
+INFO 404 125000000
+badger 2020/09/16 14:15:54 INFO: Storing value log head: {Fid:124 Len:32 Offset:10200186}
+INFO 404 126000000
+INFO 404 127000000
+badger 2020/09/16 14:15:58 INFO: Storing value log head: {Fid:125 Len:32 Offset:17000318}
+INFO 409 128000000
+badger 2020/09/16 14:16:02 INFO: Storing value log head: {Fid:126 Len:32 Offset:23800450}
+badger 2020/09/16 14:16:02 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:16:04 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 1.854784253s
+badger 2020/09/16 14:16:04 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:16:04 INFO: [Compactor: 0] Running compaction: {level:1 score:1.546032004058361 dropPrefixes:[]} for level: 1
+INFO 414 129000000
+INFO 415 130000000
+badger 2020/09/16 14:16:05 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 916.408959ms
+badger 2020/09/16 14:16:05 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:16:05 INFO: [Compactor: 0] Running compaction: {level:1 score:1.3638624772429466 dropPrefixes:[]} for level: 1
+INFO 415 131000000
+badger 2020/09/16 14:16:06 INFO: Storing value log head: {Fid:127 Len:32 Offset:30600582}
+badger 2020/09/16 14:16:07 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.775868352s
+badger 2020/09/16 14:16:07 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:16:07 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0915586203336716 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:16:10 INFO: Storing value log head: {Fid:129 Len:32 Offset:3400054}
+badger 2020/09/16 14:16:12 INFO: LOG Compact 1->2, del 12 tables, add 12 tables, took 5.568710486s
+badger 2020/09/16 14:16:12 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:16:14 INFO: Storing value log head: {Fid:130 Len:32 Offset:10200186}
+INFO 426 132000000
+INFO 426 133000000
+INFO 426 134000000
+badger 2020/09/16 14:16:18 INFO: Storing value log head: {Fid:131 Len:32 Offset:17000318}
+badger 2020/09/16 14:16:22 INFO: Storing value log head: {Fid:132 Len:32 Offset:23800450}
+badger 2020/09/16 14:16:23 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:16:24 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 1.853572375s
+badger 2020/09/16 14:16:24 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:16:24 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5462350994348526 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:16:25 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 840.450707ms
+badger 2020/09/16 14:16:25 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:16:25 INFO: [Compactor: 0] Running compaction: {level:1 score:1.3638624995946884 dropPrefixes:[]} for level: 1
+INFO 436 135000000
+badger 2020/09/16 14:16:26 INFO: Storing value log head: {Fid:133 Len:32 Offset:30600582}
+INFO 436 136000000
+INFO 437 137000000
+badger 2020/09/16 14:16:27 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.965623347s
+badger 2020/09/16 14:16:27 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:16:27 INFO: [Compactor: 0] Running compaction: {level:1 score:1.091558713465929 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:16:30 INFO: Storing value log head: {Fid:135 Len:32 Offset:3400054}
+badger 2020/09/16 14:16:34 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0116126564641794 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:16:34 INFO: LOG Compact 1->2, del 15 tables, add 15 tables, took 6.979522118s
+badger 2020/09/16 14:16:34 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:16:35 INFO: Storing value log head: {Fid:136 Len:32 Offset:10200186}
+badger 2020/09/16 14:16:35 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 874.70535ms
+badger 2020/09/16 14:16:35 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 447 138000000
+INFO 447 139000000
+INFO 447 140000000
+badger 2020/09/16 14:16:38 INFO: Storing value log head: {Fid:137 Len:32 Offset:17000318}
+badger 2020/09/16 14:16:42 INFO: Storing value log head: {Fid:138 Len:32 Offset:23800450}
+badger 2020/09/16 14:16:42 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:16:45 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 2.072333982s
+badger 2020/09/16 14:16:45 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:16:45 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5462404564023018 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:16:46 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.030187518s
+badger 2020/09/16 14:16:46 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:16:46 INFO: [Compactor: 0] Running compaction: {level:1 score:1.3638624586164951 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:16:46 INFO: [Compactor: 1] Running compaction: {level:2 score:1.005520543952783 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:16:47 INFO: Storing value log head: {Fid:139 Len:32 Offset:30600582}
+badger 2020/09/16 14:16:47 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.698819474s
+badger 2020/09/16 14:16:47 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:16:47 INFO: LOG Compact 1->2, del 4 tables, add 4 tables, took 1.790785265s
+badger 2020/09/16 14:16:47 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:16:47 INFO: [Compactor: 0] Running compaction: {level:1 score:1.091558612883091 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:16:47 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0053971764942011 dropPrefixes:[]} for level: 2
+INFO 458 141000000
+badger 2020/09/16 14:16:49 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.255021336s
+badger 2020/09/16 14:16:49 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 459 142000000
+INFO 459 143000000
+badger 2020/09/16 14:16:52 INFO: Storing value log head: {Fid:141 Len:32 Offset:3400054}
+INFO 464 144000000
+badger 2020/09/16 14:16:55 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0051215134561062 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:16:55 INFO: LOG Compact 1->2, del 16 tables, add 16 tables, took 7.582683698s
+badger 2020/09/16 14:16:55 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:16:56 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 840.308503ms
+badger 2020/09/16 14:16:56 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:16:56 INFO: Storing value log head: {Fid:142 Len:32 Offset:10200186}
+badger 2020/09/16 14:17:00 INFO: Storing value log head: {Fid:143 Len:32 Offset:17000318}
+INFO 470 145000000
+INFO 471 146000000
+INFO 471 147000000
+badger 2020/09/16 14:17:04 INFO: Storing value log head: {Fid:144 Len:32 Offset:23800450}
+badger 2020/09/16 14:17:04 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:17:06 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 1.881217055s
+badger 2020/09/16 14:17:06 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:17:06 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5459725372493267 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:17:08 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.330251986s
+badger 2020/09/16 14:17:08 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:17:08 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2736686766147614 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:17:08 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0050276038547357 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:17:08 INFO: Storing value log head: {Fid:145 Len:32 Offset:30600582}
+badger 2020/09/16 14:17:09 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.522609327s
+badger 2020/09/16 14:17:09 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:17:09 INFO: LOG Compact 1->2, del 3 tables, add 2 tables, took 1.565674402s
+badger 2020/09/16 14:17:09 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:17:09 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0915586240589619 dropPrefixes:[]} for level: 1
+INFO 481 148000000
+INFO 481 149000000
+INFO 481 150000000
+badger 2020/09/16 14:17:13 INFO: Storing value log head: {Fid:147 Len:32 Offset:3400054}
+badger 2020/09/16 14:17:17 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0171647019684316 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:17:17 INFO: Storing value log head: {Fid:148 Len:32 Offset:10200186}
+badger 2020/09/16 14:17:17 INFO: LOG Compact 1->2, del 17 tables, add 17 tables, took 7.770606813s
+badger 2020/09/16 14:17:17 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:17:18 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 797.419692ms
+badger 2020/09/16 14:17:18 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:17:21 INFO: Storing value log head: {Fid:149 Len:32 Offset:17000318}
+INFO 492 151000000
+INFO 492 152000000
+INFO 493 153000000
+badger 2020/09/16 14:17:24 INFO: Storing value log head: {Fid:150 Len:32 Offset:23800450}
+badger 2020/09/16 14:17:25 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:17:27 INFO: LOG Compact 0->1, del 5 tables, add 3 tables, took 1.91081702s
+badger 2020/09/16 14:17:27 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:17:27 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5451282560825348 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:17:28 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.253707576s
+badger 2020/09/16 14:17:28 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:17:28 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2728244252502918 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:17:28 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0170685259004435 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:17:29 INFO: Storing value log head: {Fid:151 Len:32 Offset:30600582}
+badger 2020/09/16 14:17:30 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.446292807s
+badger 2020/09/16 14:17:30 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:17:30 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0112817766765754 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:17:30 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.524183721s
+badger 2020/09/16 14:17:30 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:17:30 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0915585607290268 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:17:31 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.183718791s
+badger 2020/09/16 14:17:31 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:17:31 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.2294155s
+badger 2020/09/16 14:17:31 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:17:31 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0111814411977926 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:17:32 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 875.323723ms
+badger 2020/09/16 14:17:32 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 503 154000000
+badger 2020/09/16 14:17:33 INFO: Storing value log head: {Fid:153 Len:32 Offset:3400054}
+INFO 503 155000000
+INFO 503 156000000
+badger 2020/09/16 14:17:36 INFO: Storing value log head: {Fid:154 Len:32 Offset:10200186}
+badger 2020/09/16 14:17:40 INFO: Storing value log head: {Fid:155 Len:32 Offset:17000318}
+INFO 513 157000000
+INFO 513 158000000
+INFO 513 159000000
+badger 2020/09/16 14:17:44 INFO: Storing value log head: {Fid:156 Len:32 Offset:23800450}
+badger 2020/09/16 14:17:45 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:17:47 INFO: LOG Compact 0->1, del 6 tables, add 4 tables, took 2.694007848s
+badger 2020/09/16 14:17:47 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:17:47 INFO: [Compactor: 0] Running compaction: {level:1 score:1.543640647083521 dropPrefixes:[]} for level: 1
+INFO 518 160000000
+badger 2020/09/16 14:17:49 INFO: Storing value log head: {Fid:157 Len:32 Offset:30600582}
+badger 2020/09/16 14:17:49 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.382125832s
+badger 2020/09/16 14:17:49 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:17:49 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2713371887803078 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:17:49 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0110507796208064 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:17:50 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.315518949s
+badger 2020/09/16 14:17:50 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:17:50 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.41618588s
+badger 2020/09/16 14:17:50 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:17:50 INFO: [Compactor: 1] Running compaction: {level:2 score:1.010955228159825 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:17:51 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 808.537509ms
+badger 2020/09/16 14:17:51 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:17:53 INFO: Storing value log head: {Fid:159 Len:32 Offset:3400054}
+INFO 524 161000000
+INFO 524 162000000
+INFO 525 163000000
+badger 2020/09/16 14:17:56 INFO: Storing value log head: {Fid:160 Len:32 Offset:10200186}
+badger 2020/09/16 14:18:00 INFO: Storing value log head: {Fid:161 Len:32 Offset:17000318}
+badger 2020/09/16 14:18:04 INFO: Storing value log head: {Fid:162 Len:32 Offset:23800450}
+INFO 534 164000000
+INFO 534 165000000
+badger 2020/09/16 14:18:05 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 535 166000000
+badger 2020/09/16 14:18:08 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 3.196235175s
+badger 2020/09/16 14:18:08 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:18:08 INFO: [Compactor: 0] Running compaction: {level:1 score:1.729043085128069 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:18:09 INFO: Storing value log head: {Fid:163 Len:32 Offset:30600582}
+badger 2020/09/16 14:18:09 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0108629770576953 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:18:09 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.343723895s
+badger 2020/09/16 14:18:09 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:18:09 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4567393250763416 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:18:10 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.260627958s
+badger 2020/09/16 14:18:10 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:18:10 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0107717300454775 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:18:10 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.307416676s
+badger 2020/09/16 14:18:10 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:18:10 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1844358555972576 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:18:12 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.145442339s
+badger 2020/09/16 14:18:12 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:18:12 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.139022421s
+badger 2020/09/16 14:18:12 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:18:12 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0916205160319805 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:18:13 INFO: Storing value log head: {Fid:165 Len:32 Offset:3400054}
+badger 2020/09/16 14:18:13 INFO: LOG Compact 1->2, del 4 tables, add 4 tables, took 1.883352966s
+badger 2020/09/16 14:18:13 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:18:13 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0167799736062686 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:18:14 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 812.216954ms
+badger 2020/09/16 14:18:14 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 545 167000000
+INFO 546 168000000
+INFO 546 169000000
+badger 2020/09/16 14:18:17 INFO: Storing value log head: {Fid:166 Len:32 Offset:10200186}
+badger 2020/09/16 14:18:21 INFO: Storing value log head: {Fid:167 Len:32 Offset:17000318}
+badger 2020/09/16 14:18:25 INFO: Storing value log head: {Fid:168 Len:32 Offset:23800450}
+badger 2020/09/16 14:18:25 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 556 170000000
+INFO 556 171000000
+INFO 556 172000000
+badger 2020/09/16 14:18:28 INFO: LOG Compact 0->1, del 6 tables, add 4 tables, took 2.771380164s
+badger 2020/09/16 14:18:28 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:18:28 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5455249212682247 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:18:29 INFO: Storing value log head: {Fid:169 Len:32 Offset:30600582}
+badger 2020/09/16 14:18:29 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.40296736s
+badger 2020/09/16 14:18:29 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:18:29 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2732211351394653 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:18:29 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0166841936608155 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:18:31 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.28667489s
+badger 2020/09/16 14:18:31 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:18:31 INFO: [Compactor: 0] Running compaction: {level:1 score:1.091620460152626 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:18:31 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.230308986s
+badger 2020/09/16 14:18:31 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:18:31 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0105671626826127 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:18:32 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.02415513s
+badger 2020/09/16 14:18:32 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:18:32 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.746633125s
+badger 2020/09/16 14:18:32 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:18:32 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0103619781633217 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:18:33 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 808.487062ms
+badger 2020/09/16 14:18:33 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:18:33 INFO: Storing value log head: {Fid:171 Len:32 Offset:3400054}
+INFO 567 173000000
+badger 2020/09/16 14:18:37 INFO: Storing value log head: {Fid:172 Len:32 Offset:10200186}
+INFO 568 174000000
+INFO 568 175000000
+badger 2020/09/16 14:18:41 INFO: Storing value log head: {Fid:173 Len:32 Offset:17000318}
+INFO 572 176000000
+badger 2020/09/16 14:18:45 INFO: Storing value log head: {Fid:174 Len:32 Offset:23800450}
+badger 2020/09/16 14:18:45 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 578 177000000
+badger 2020/09/16 14:18:48 INFO: LOG Compact 0->1, del 6 tables, add 4 tables, took 2.750466849s
+badger 2020/09/16 14:18:48 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:18:48 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5460887476801872 dropPrefixes:[]} for level: 1
+INFO 578 178000000
+INFO 578 179000000
+badger 2020/09/16 14:18:49 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 912.823632ms
+badger 2020/09/16 14:18:49 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:18:49 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2737849168479443 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:18:49 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0102672676245372 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:18:49 INFO: Storing value log head: {Fid:175 Len:32 Offset:30600582}
+badger 2020/09/16 14:18:50 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.208587595s
+badger 2020/09/16 14:18:50 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:18:50 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0916203930974007 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:18:50 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.151348515s
+badger 2020/09/16 14:18:50 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:18:50 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0045254689951737 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:18:51 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.03934367s
+badger 2020/09/16 14:18:51 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:18:52 INFO: LOG Compact 1->2, del 4 tables, add 4 tables, took 1.908006637s
+badger 2020/09/16 14:18:52 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:18:52 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0042924210429192 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:18:53 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 832.861823ms
+badger 2020/09/16 14:18:53 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:18:53 INFO: Storing value log head: {Fid:177 Len:32 Offset:3400054}
+badger 2020/09/16 14:18:57 INFO: Storing value log head: {Fid:178 Len:32 Offset:10200186}
+INFO 588 180000000
+INFO 589 181000000
+INFO 589 182000000
+badger 2020/09/16 14:19:01 INFO: Storing value log head: {Fid:179 Len:32 Offset:17000318}
+badger 2020/09/16 14:19:05 INFO: Storing value log head: {Fid:180 Len:32 Offset:23800450}
+badger 2020/09/16 14:19:05 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:19:08 INFO: LOG Compact 0->1, del 6 tables, add 4 tables, took 2.742525937s
+badger 2020/09/16 14:19:08 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:19:08 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5462833307683468 dropPrefixes:[]} for level: 1
+INFO 599 183000000
+INFO 599 184000000
+badger 2020/09/16 14:19:09 INFO: Storing value log head: {Fid:181 Len:32 Offset:30600582}
+badger 2020/09/16 14:19:10 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.646081723s
+badger 2020/09/16 14:19:10 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:19:10 INFO: [Compactor: 0] Running compaction: {level:1 score:1.273979477584362 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:19:10 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0040513036151728 dropPrefixes:[]} for level: 2
+INFO 600 185000000
+badger 2020/09/16 14:19:11 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.152645487s
+badger 2020/09/16 14:19:11 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:19:11 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.198906131s
+badger 2020/09/16 14:19:11 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:19:11 INFO: [Compactor: 0] Running compaction: {level:1 score:1.091620471328497 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:19:12 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0160145344833533 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:19:12 INFO: LOG Compact 1->2, del 4 tables, add 3 tables, took 1.458026662s
+badger 2020/09/16 14:19:12 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:19:13 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 807.696757ms
+badger 2020/09/16 14:19:13 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:19:13 INFO: Storing value log head: {Fid:183 Len:32 Offset:3400054}
+badger 2020/09/16 14:19:17 INFO: Storing value log head: {Fid:184 Len:32 Offset:10200186}
+INFO 610 186000000
+INFO 610 187000000
+INFO 610 188000000
+badger 2020/09/16 14:19:21 INFO: Storing value log head: {Fid:185 Len:32 Offset:17000318}
+badger 2020/09/16 14:19:25 INFO: Storing value log head: {Fid:186 Len:32 Offset:23800450}
+badger 2020/09/16 14:19:25 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:19:28 INFO: LOG Compact 0->1, del 6 tables, add 4 tables, took 2.437737886s
+badger 2020/09/16 14:19:28 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:19:28 INFO: [Compactor: 0] Running compaction: {level:1 score:1.546265583485365 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:19:30 INFO: Storing value log head: {Fid:187 Len:32 Offset:30600582}
+badger 2020/09/16 14:19:30 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.825717541s
+badger 2020/09/16 14:19:30 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:19:30 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2739619240164757 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:19:30 INFO: [Compactor: 1] Running compaction: {level:2 score:1.015759574621916 dropPrefixes:[]} for level: 2
+INFO 621 189000000
+badger 2020/09/16 14:19:31 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.072788023s
+badger 2020/09/16 14:19:31 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:19:31 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0916204191744328 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:19:31 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.044265779s
+badger 2020/09/16 14:19:31 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:19:31 INFO: [Compactor: 1] Running compaction: {level:2 score:1.010011954108874 dropPrefixes:[]} for level: 2
+INFO 621 190000000
+INFO 621 191000000
+badger 2020/09/16 14:19:32 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.380472384s
+badger 2020/09/16 14:19:32 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:19:32 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.4775489s
+badger 2020/09/16 14:19:32 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:19:32 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0099198050796985 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:19:33 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 911.247488ms
+badger 2020/09/16 14:19:33 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:19:34 INFO: Storing value log head: {Fid:189 Len:32 Offset:3400054}
+INFO 626 192000000
+badger 2020/09/16 14:19:38 INFO: Storing value log head: {Fid:190 Len:32 Offset:10200186}
+badger 2020/09/16 14:19:41 INFO: Storing value log head: {Fid:191 Len:32 Offset:17000318}
+INFO 632 193000000
+INFO 632 194000000
+INFO 632 195000000
+badger 2020/09/16 14:19:45 INFO: Storing value log head: {Fid:192 Len:32 Offset:23800450}
+badger 2020/09/16 14:19:46 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:19:49 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 3.226687606s
+badger 2020/09/16 14:19:49 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:19:49 INFO: [Compactor: 0] Running compaction: {level:1 score:1.543713267892599 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:19:50 INFO: Storing value log head: {Fid:193 Len:32 Offset:30600582}
+badger 2020/09/16 14:19:50 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.572087046s
+badger 2020/09/16 14:19:50 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:19:50 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2714096270501614 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:19:50 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0096800113717714 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:19:51 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 28.382974ms
+badger 2020/09/16 14:19:51 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:19:51 INFO: [Compactor: 1] Running compaction: {level:2 score:1.009576647480329 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:19:52 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.206594326s
+badger 2020/09/16 14:19:52 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:19:52 INFO: LOG Compact 1->2, del 3 tables, add 2 tables, took 1.364985317s
+badger 2020/09/16 14:19:52 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:19:52 INFO: [Compactor: 1] Running compaction: {level:2 score:1.009861236065626 dropPrefixes:[]} for level: 2
+INFO 642 196000000
+INFO 643 197000000
+badger 2020/09/16 14:19:53 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 834.887421ms
+badger 2020/09/16 14:19:53 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 643 198000000
+badger 2020/09/16 14:19:54 INFO: Storing value log head: {Fid:195 Len:32 Offset:3400054}
+badger 2020/09/16 14:19:57 INFO: Storing value log head: {Fid:196 Len:32 Offset:10200186}
+badger 2020/09/16 14:20:01 INFO: Storing value log head: {Fid:197 Len:32 Offset:17000318}
+INFO 653 199000000
+INFO 653 200000000
+INFO 653 201000000
+badger 2020/09/16 14:20:05 INFO: Storing value log head: {Fid:198 Len:32 Offset:23800450}
+badger 2020/09/16 14:20:06 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:20:09 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 3.128231849s
+badger 2020/09/16 14:20:09 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:20:09 INFO: [Compactor: 0] Running compaction: {level:1 score:1.7204403057694435 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:20:09 INFO: Storing value log head: {Fid:199 Len:32 Offset:30600582}
+badger 2020/09/16 14:20:10 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.493735259s
+badger 2020/09/16 14:20:10 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:20:10 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4481371380388737 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:20:10 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0099078506231307 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:20:12 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.252741126s
+badger 2020/09/16 14:20:12 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:20:12 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0101609202722708 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:20:12 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.315923619s
+badger 2020/09/16 14:20:12 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:20:12 INFO: [Compactor: 0] Running compaction: {level:1 score:1.175834160298109 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:20:13 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.269040903s
+badger 2020/09/16 14:20:13 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:20:13 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0100734439988932 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:20:13 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.40618295s
+badger 2020/09/16 14:20:13 INFO: [Compactor: 0] Compaction for level: 1 DONE
+INFO 664 202000000
+badger 2020/09/16 14:20:14 INFO: Storing value log head: {Fid:201 Len:32 Offset:3400054}
+badger 2020/09/16 14:20:14 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 793.358282ms
+badger 2020/09/16 14:20:14 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 664 203000000
+INFO 664 204000000
+badger 2020/09/16 14:20:17 INFO: Storing value log head: {Fid:202 Len:32 Offset:10200186}
+badger 2020/09/16 14:20:21 INFO: Storing value log head: {Fid:203 Len:32 Offset:17000318}
+INFO 673 205000000
+INFO 674 206000000
+INFO 674 207000000
+badger 2020/09/16 14:20:25 INFO: Storing value log head: {Fid:204 Len:32 Offset:23800450}
+badger 2020/09/16 14:20:26 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:20:29 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 2.928621487s
+badger 2020/09/16 14:20:29 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:20:29 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6316174678504467 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:20:30 INFO: Storing value log head: {Fid:205 Len:32 Offset:30600582}
+INFO 680 208000000
+badger 2020/09/16 14:20:30 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.334055877s
+badger 2020/09/16 14:20:30 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:20:30 INFO: [Compactor: 0] Running compaction: {level:1 score:1.3593136928975582 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:20:30 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0099807982643445 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:20:32 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.500566137s
+badger 2020/09/16 14:20:32 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:20:32 INFO: [Compactor: 1] Running compaction: {level:2 score:1.009895712385575 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:20:32 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.586980494s
+badger 2020/09/16 14:20:32 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:20:32 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0870100408792496 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:20:33 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.291879768s
+badger 2020/09/16 14:20:33 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:20:33 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.703730791s
+badger 2020/09/16 14:20:33 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:20:33 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0098036058247088 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:20:34 INFO: Storing value log head: {Fid:207 Len:32 Offset:3400054}
+badger 2020/09/16 14:20:34 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 830.733728ms
+badger 2020/09/16 14:20:34 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 685 209000000
+INFO 686 210000000
+INFO 686 211000000
+badger 2020/09/16 14:20:38 INFO: Storing value log head: {Fid:208 Len:32 Offset:10200186}
+badger 2020/09/16 14:20:41 INFO: Storing value log head: {Fid:209 Len:32 Offset:17000318}
+badger 2020/09/16 14:20:46 INFO: Storing value log head: {Fid:210 Len:32 Offset:23800450}
+INFO 696 212000000
+INFO 696 213000000
+badger 2020/09/16 14:20:46 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 696 214000000
+badger 2020/09/16 14:20:49 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 2.828476802s
+badger 2020/09/16 14:20:49 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:20:49 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5448884442448616 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:20:50 INFO: Storing value log head: {Fid:211 Len:32 Offset:30600582}
+badger 2020/09/16 14:20:50 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.281600897s
+badger 2020/09/16 14:20:50 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:20:50 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2725847698748112 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:20:50 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0097121270994345 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:20:51 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.100446532s
+badger 2020/09/16 14:20:51 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:20:53 INFO: LOG Compact 1->2, del 4 tables, add 4 tables, took 2.394702943s
+badger 2020/09/16 14:20:53 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:20:53 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0002809315919876 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:20:53 INFO: [Compactor: 1] Running compaction: {level:2 score:1.009593314677477 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:20:54 INFO: Storing value log head: {Fid:213 Len:32 Offset:3400054}
+badger 2020/09/16 14:20:54 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.364310865s
+badger 2020/09/16 14:20:54 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:20:56 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0095937885344028 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:20:56 INFO: LOG Compact 1->2, del 7 tables, add 7 tables, took 3.135575216s
+badger 2020/09/16 14:20:56 INFO: [Compactor: 0] Compaction for level: 1 DONE
+INFO 706 215000000
+INFO 707 216000000
+badger 2020/09/16 14:20:57 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 919.992687ms
+badger 2020/09/16 14:20:57 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 707 217000000
+badger 2020/09/16 14:20:58 INFO: Storing value log head: {Fid:214 Len:32 Offset:10200186}
+badger 2020/09/16 14:21:02 INFO: Storing value log head: {Fid:215 Len:32 Offset:17000318}
+badger 2020/09/16 14:21:06 INFO: Storing value log head: {Fid:216 Len:32 Offset:23800450}
+badger 2020/09/16 14:21:06 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 717 218000000
+INFO 717 219000000
+INFO 718 220000000
+badger 2020/09/16 14:21:09 INFO: LOG Compact 0->1, del 6 tables, add 4 tables, took 2.550094916s
+badger 2020/09/16 14:21:09 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:21:09 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4528389647603035 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:21:10 INFO: Storing value log head: {Fid:217 Len:32 Offset:30600582}
+badger 2020/09/16 14:21:10 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.362065801s
+badger 2020/09/16 14:21:10 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:21:10 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1805351562798023 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:21:10 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0095003719131153 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:21:11 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.131141491s
+badger 2020/09/16 14:21:11 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:21:12 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.551372441s
+badger 2020/09/16 14:21:12 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:21:12 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0094045251607895 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:21:13 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 826.759808ms
+badger 2020/09/16 14:21:13 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:21:14 INFO: Storing value log head: {Fid:219 Len:32 Offset:3400054}
+INFO 728 221000000
+badger 2020/09/16 14:21:18 INFO: Storing value log head: {Fid:220 Len:32 Offset:10200186}
+INFO 728 222000000
+INFO 729 223000000
+badger 2020/09/16 14:21:22 INFO: Storing value log head: {Fid:221 Len:32 Offset:17000318}
+INFO 733 224000000
+badger 2020/09/16 14:21:26 INFO: Storing value log head: {Fid:222 Len:32 Offset:23800450}
+badger 2020/09/16 14:21:26 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 739 225000000
+INFO 739 226000000
+INFO 739 227000000
+badger 2020/09/16 14:21:29 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 3.202123827s
+badger 2020/09/16 14:21:29 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:21:29 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6388814076781273 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:21:30 INFO: Storing value log head: {Fid:223 Len:32 Offset:30600582}
+badger 2020/09/16 14:21:31 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.400470026s
+badger 2020/09/16 14:21:31 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:21:31 INFO: [Compactor: 0] Running compaction: {level:1 score:1.366577722132206 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:21:31 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0092514477670194 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:21:32 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.255721013s
+badger 2020/09/16 14:21:32 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:21:32 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0091589984794458 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:21:32 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.336197879s
+badger 2020/09/16 14:21:32 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:21:32 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0942739434540272 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:21:33 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.278064122s
+badger 2020/09/16 14:21:33 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:21:34 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.783441972s
+badger 2020/09/16 14:21:34 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:21:34 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0090431675314904 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:21:35 INFO: Storing value log head: {Fid:225 Len:32 Offset:3400054}
+badger 2020/09/16 14:21:35 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.03430385s
+badger 2020/09/16 14:21:35 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:21:39 INFO: Storing value log head: {Fid:226 Len:32 Offset:10200186}
+INFO 750 228000000
+INFO 750 229000000
+INFO 750 230000000
+badger 2020/09/16 14:21:42 INFO: Storing value log head: {Fid:227 Len:32 Offset:17000318}
+badger 2020/09/16 14:21:46 INFO: Storing value log head: {Fid:228 Len:32 Offset:23800450}
+badger 2020/09/16 14:21:47 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:21:50 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 3.015430999s
+badger 2020/09/16 14:21:50 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:21:50 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5539894998073578 dropPrefixes:[]} for level: 1
+INFO 760 231000000
+badger 2020/09/16 14:21:51 INFO: Storing value log head: {Fid:229 Len:32 Offset:30600582}
+INFO 761 232000000
+INFO 761 233000000
+badger 2020/09/16 14:21:51 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.388292232s
+badger 2020/09/16 14:21:51 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:21:51 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2816857025027275 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:21:51 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0089525014162064 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:21:52 INFO: LOG Compact 1->2, del 2 tables, add 1 tables, took 553.614338ms
+badger 2020/09/16 14:21:52 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:21:52 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2791564539074898 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:21:52 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 834.682758ms
+badger 2020/09/16 14:21:52 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:21:53 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.719500134s
+badger 2020/09/16 14:21:53 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:21:53 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0068526566028595 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:21:53 INFO: [Compactor: 1] Running compaction: {level:2 score:1.00890935237209 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:21:55 INFO: Storing value log head: {Fid:231 Len:32 Offset:3400054}
+badger 2020/09/16 14:21:55 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.251713472s
+badger 2020/09/16 14:21:55 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:21:59 INFO: Storing value log head: {Fid:232 Len:32 Offset:10200186}
+badger 2020/09/16 14:22:01 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0093945741653443 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:22:01 INFO: LOG Compact 1->2, del 16 tables, add 16 tables, took 7.451445844s
+badger 2020/09/16 14:22:01 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:22:02 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 830.199609ms
+badger 2020/09/16 14:22:02 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 772 234000000
+INFO 772 235000000
+INFO 772 236000000
+badger 2020/09/16 14:22:03 INFO: Storing value log head: {Fid:233 Len:32 Offset:17000318}
+badger 2020/09/16 14:22:07 INFO: Storing value log head: {Fid:234 Len:32 Offset:23800450}
+badger 2020/09/16 14:22:08 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:22:10 INFO: LOG Compact 0->1, del 6 tables, add 4 tables, took 2.506800899s
+badger 2020/09/16 14:22:10 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:22:10 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4586745612323284 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:22:12 INFO: Storing value log head: {Fid:235 Len:32 Offset:30600582}
+badger 2020/09/16 14:22:12 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.373097039s
+badger 2020/09/16 14:22:12 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:22:12 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1863707713782787 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:22:12 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0093082497517267 dropPrefixes:[]} for level: 2
+INFO 782 237000000
+badger 2020/09/16 14:22:13 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.178193511s
+badger 2020/09/16 14:22:13 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 783 238000000
+badger 2020/09/16 14:22:13 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.284254722s
+badger 2020/09/16 14:22:13 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:22:13 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0092160863180955 dropPrefixes:[]} for level: 2
+INFO 783 239000000
+badger 2020/09/16 14:22:14 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 867.328796ms
+badger 2020/09/16 14:22:14 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:22:16 INFO: Storing value log head: {Fid:237 Len:32 Offset:3400054}
+INFO 788 240000000
+badger 2020/09/16 14:22:19 INFO: Storing value log head: {Fid:238 Len:32 Offset:10200186}
+badger 2020/09/16 14:22:23 INFO: Storing value log head: {Fid:239 Len:32 Offset:17000318}
+INFO 793 241000000
+INFO 794 242000000
+INFO 794 243000000
+badger 2020/09/16 14:22:27 INFO: Storing value log head: {Fid:240 Len:32 Offset:23800450}
+badger 2020/09/16 14:22:28 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:22:31 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 3.226364576s
+badger 2020/09/16 14:22:31 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:22:31 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6432402022182941 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:22:31 INFO: Storing value log head: {Fid:241 Len:32 Offset:30600582}
+badger 2020/09/16 14:22:31 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 654.099743ms
+badger 2020/09/16 14:22:31 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:22:31 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4634943045675755 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:22:31 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0030458877484003 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:22:33 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.326877055s
+badger 2020/09/16 14:22:33 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:22:33 INFO: [Compactor: 1] Running compaction: {level:2 score:1.002953802794218 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:22:33 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.388381806s
+badger 2020/09/16 14:22:33 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:22:33 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1911905072629452 dropPrefixes:[]} for level: 1
+INFO 804 244000000
+badger 2020/09/16 14:22:34 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.303624501s
+badger 2020/09/16 14:22:34 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:22:34 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.329110396s
+badger 2020/09/16 14:22:34 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:22:34 INFO: [Compactor: 1] Running compaction: {level:2 score:1.00286452571551 dropPrefixes:[]} for level: 2
+INFO 804 245000000
+INFO 805 246000000
+badger 2020/09/16 14:22:35 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 945.893354ms
+badger 2020/09/16 14:22:35 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:22:36 INFO: Storing value log head: {Fid:243 Len:32 Offset:3400054}
+badger 2020/09/16 14:22:40 INFO: Storing value log head: {Fid:244 Len:32 Offset:10200186}
+badger 2020/09/16 14:22:44 INFO: Storing value log head: {Fid:245 Len:32 Offset:17000318}
+INFO 815 247000000
+INFO 815 248000000
+INFO 815 249000000
+badger 2020/09/16 14:22:47 INFO: Storing value log head: {Fid:246 Len:32 Offset:23800450}
+badger 2020/09/16 14:22:48 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:22:52 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 3.714131098s
+badger 2020/09/16 14:22:52 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:22:52 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6482015177607536 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:22:52 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 28.133636ms
+badger 2020/09/16 14:22:52 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:22:52 INFO: [Compactor: 0] Running compaction: {level:1 score:1.647037584334612 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:22:52 INFO: Storing value log head: {Fid:247 Len:32 Offset:30600582}
+badger 2020/09/16 14:22:53 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.207854144s
+badger 2020/09/16 14:22:53 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:22:53 INFO: [Compactor: 0] Running compaction: {level:1 score:1.3747337870299816 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:22:53 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0028532840311528 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:22:54 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 1.036874579s
+badger 2020/09/16 14:22:54 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:22:54 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1024300083518028 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:22:54 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.01538905s
+badger 2020/09/16 14:22:54 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:22:54 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0028536143402258 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:22:55 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.359956799s
+badger 2020/09/16 14:22:55 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:22:55 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.4211266s
+badger 2020/09/16 14:22:55 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:22:55 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0027720535794893 dropPrefixes:[]} for level: 2
+INFO 826 250000000
+badger 2020/09/16 14:22:56 INFO: Storing value log head: {Fid:249 Len:32 Offset:3400054}
+INFO 826 251000000
+badger 2020/09/16 14:22:56 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 845.286448ms
+badger 2020/09/16 14:22:56 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 827 252000000
+badger 2020/09/16 14:23:00 INFO: Storing value log head: {Fid:250 Len:32 Offset:10200186}
+badger 2020/09/16 14:23:04 INFO: Storing value log head: {Fid:251 Len:32 Offset:17000318}
+INFO 836 253000000
+INFO 837 254000000
+INFO 837 255000000
+badger 2020/09/16 14:23:08 INFO: Storing value log head: {Fid:252 Len:32 Offset:23800450}
+badger 2020/09/16 14:23:08 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:23:11 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 3.099962575s
+badger 2020/09/16 14:23:11 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:23:11 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5530318543314934 dropPrefixes:[]} for level: 1
+INFO 842 256000000
+badger 2020/09/16 14:23:12 INFO: Storing value log head: {Fid:253 Len:32 Offset:30600582}
+badger 2020/09/16 14:23:12 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 867.833756ms
+badger 2020/09/16 14:23:12 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:23:12 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2807279899716377 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:23:12 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0027765942116578 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:23:14 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 1.341147952s
+badger 2020/09/16 14:23:14 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:23:14 INFO: [Compactor: 0] Running compaction: {level:1 score:1.008424162864685 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:23:14 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.282718271s
+badger 2020/09/16 14:23:14 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:23:14 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0027769287427266 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:23:14 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 153.29879ms
+badger 2020/09/16 14:23:14 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:23:14 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0181156379481158 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:23:14 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 826.891603ms
+badger 2020/09/16 14:23:14 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:23:15 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 829.622527ms
+badger 2020/09/16 14:23:15 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:23:17 INFO: Storing value log head: {Fid:255 Len:32 Offset:3400054}
+INFO 848 257000000
+INFO 848 258000000
+INFO 848 259000000
+badger 2020/09/16 14:23:20 INFO: Storing value log head: {Fid:256 Len:32 Offset:10200186}
+badger 2020/09/16 14:23:24 INFO: Storing value log head: {Fid:257 Len:32 Offset:17000318}
+INFO 858 260000000
+badger 2020/09/16 14:23:28 INFO: Storing value log head: {Fid:258 Len:32 Offset:23800450}
+INFO 858 261000000
+badger 2020/09/16 14:23:28 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 859 262000000
+badger 2020/09/16 14:23:31 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 3.005495191s
+badger 2020/09/16 14:23:31 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:23:31 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4660963155329227 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:23:32 INFO: Storing value log head: {Fid:259 Len:32 Offset:30600582}
+badger 2020/09/16 14:23:32 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 903.069121ms
+badger 2020/09/16 14:23:32 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:23:32 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1937925033271313 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:23:32 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0181159645318985 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:23:33 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 1.113161936s
+badger 2020/09/16 14:23:33 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:23:33 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.091021496s
+badger 2020/09/16 14:23:33 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:23:33 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0181162727375825 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:23:34 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 837.380005ms
+badger 2020/09/16 14:23:34 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:23:36 INFO: Storing value log head: {Fid:261 Len:32 Offset:3400054}
+INFO 868 263000000
+INFO 869 264000000
+INFO 869 265000000
+badger 2020/09/16 14:23:40 INFO: Storing value log head: {Fid:262 Len:32 Offset:10200186}
+badger 2020/09/16 14:23:44 INFO: Storing value log head: {Fid:263 Len:32 Offset:17000318}
+badger 2020/09/16 14:23:48 INFO: Storing value log head: {Fid:264 Len:32 Offset:23800450}
+badger 2020/09/16 14:23:48 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 879 266000000
+INFO 879 267000000
+INFO 879 268000000
+badger 2020/09/16 14:23:52 INFO: Storing value log head: {Fid:265 Len:32 Offset:30600582}
+badger 2020/09/16 14:23:52 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 3.507333618s
+badger 2020/09/16 14:23:52 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:23:52 INFO: [Compactor: 0] Running compaction: {level:1 score:1.652701660990715 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:23:53 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.562881879s
+badger 2020/09/16 14:23:53 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:23:53 INFO: [Compactor: 0] Running compaction: {level:1 score:1.3803978376090527 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:23:53 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0180340034266313 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:23:55 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.283254373s
+badger 2020/09/16 14:23:55 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:23:55 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.396535317s
+badger 2020/09/16 14:23:55 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:23:55 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1080939956009388 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:23:55 INFO: [Compactor: 1] Running compaction: {level:2 score:1.018029573559761 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:23:56 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.663929s
+badger 2020/09/16 14:23:56 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:23:57 INFO: LOG Compact 1->2, del 4 tables, add 4 tables, took 2.141670896s
+badger 2020/09/16 14:23:57 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:23:57 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0180190513531366 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:23:57 INFO: Storing value log head: {Fid:267 Len:32 Offset:3400054}
+badger 2020/09/16 14:23:58 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 823.497049ms
+badger 2020/09/16 14:23:58 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 890 269000000
+badger 2020/09/16 14:24:01 INFO: Storing value log head: {Fid:268 Len:32 Offset:10200186}
+INFO 891 270000000
+INFO 891 271000000
+badger 2020/09/16 14:24:05 INFO: Storing value log head: {Fid:269 Len:32 Offset:17000318}
+INFO 896 272000000
+badger 2020/09/16 14:24:08 INFO: Storing value log head: {Fid:270 Len:32 Offset:23800450}
+badger 2020/09/16 14:24:09 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 901 273000000
+INFO 901 274000000
+INFO 902 275000000
+badger 2020/09/16 14:24:12 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 3.117663141s
+badger 2020/09/16 14:24:12 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:24:12 INFO: [Compactor: 0] Running compaction: {level:1 score:1.560345146805048 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:24:13 INFO: Storing value log head: {Fid:271 Len:32 Offset:30600582}
+badger 2020/09/16 14:24:13 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.336937961s
+badger 2020/09/16 14:24:13 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:24:13 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2880413495004177 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:24:13 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0179265322784583 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:24:15 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.530259851s
+badger 2020/09/16 14:24:15 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:24:15 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.659567508s
+badger 2020/09/16 14:24:15 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:24:15 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0157376192510128 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:24:15 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0178278438746928 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:24:16 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.334944737s
+badger 2020/09/16 14:24:16 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:24:17 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.868720496s
+badger 2020/09/16 14:24:17 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:24:17 INFO: [Compactor: 1] Running compaction: {level:2 score:1.017931232849757 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:24:18 INFO: Storing value log head: {Fid:273 Len:32 Offset:3400054}
+badger 2020/09/16 14:24:18 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 860.376902ms
+badger 2020/09/16 14:24:18 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:24:22 INFO: Storing value log head: {Fid:274 Len:32 Offset:10200186}
+INFO 913 276000000
+INFO 913 277000000
+INFO 913 278000000
+badger 2020/09/16 14:24:25 INFO: Storing value log head: {Fid:275 Len:32 Offset:17000318}
+badger 2020/09/16 14:24:29 INFO: Storing value log head: {Fid:276 Len:32 Offset:23800450}
+badger 2020/09/16 14:24:30 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:24:33 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 2.974853979s
+badger 2020/09/16 14:24:33 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:24:33 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4734708666801453 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:24:33 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 51.133516ms
+badger 2020/09/16 14:24:33 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:24:33 INFO: [Compactor: 0] Running compaction: {level:1 score:1.464372418820858 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:24:33 INFO: [Compactor: 1] Running compaction: {level:2 score:1.00038458481431 dropPrefixes:[]} for level: 2
+INFO 923 279000000
+INFO 924 280000000
+INFO 924 281000000
+badger 2020/09/16 14:24:34 INFO: Storing value log head: {Fid:277 Len:32 Offset:30600582}
+badger 2020/09/16 14:24:34 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.500690555s
+badger 2020/09/16 14:24:34 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:24:34 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.551882782s
+badger 2020/09/16 14:24:34 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:24:34 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1920686215162277 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:24:34 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0002568155527114 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:24:36 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.193978811s
+badger 2020/09/16 14:24:36 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:24:36 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.300706547s
+badger 2020/09/16 14:24:36 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:24:36 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0001642199854055 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:24:37 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.117960852s
+badger 2020/09/16 14:24:37 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:24:38 INFO: Storing value log head: {Fid:279 Len:32 Offset:3400054}
+badger 2020/09/16 14:24:42 INFO: Storing value log head: {Fid:280 Len:32 Offset:10200186}
+INFO 934 282000000
+INFO 935 283000000
+INFO 935 284000000
+badger 2020/09/16 14:24:46 INFO: Storing value log head: {Fid:281 Len:32 Offset:17000318}
+badger 2020/09/16 14:24:50 INFO: Storing value log head: {Fid:282 Len:32 Offset:23800450}
+badger 2020/09/16 14:24:50 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:24:54 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 3.701753199s
+badger 2020/09/16 14:24:54 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:24:54 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6494263708591461 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:24:54 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 33.539828ms
+badger 2020/09/16 14:24:54 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:24:54 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6452440284192562 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:24:54 INFO: Storing value log head: {Fid:283 Len:32 Offset:30600582}
+INFO 945 285000000
+badger 2020/09/16 14:24:55 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000350510329008 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:24:55 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.247764231s
+badger 2020/09/16 14:24:55 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:24:55 INFO: [Compactor: 0] Running compaction: {level:1 score:1.372940182685852 dropPrefixes:[]} for level: 1
+INFO 946 286000000
+INFO 946 287000000
+badger 2020/09/16 14:24:57 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.346372897s
+badger 2020/09/16 14:24:57 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:24:57 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.351851913s
+badger 2020/09/16 14:24:57 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:24:57 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1006363220512867 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:24:57 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000258190681537 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:24:58 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.448720592s
+badger 2020/09/16 14:24:58 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:24:58 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0001660657425722 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:24:58 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.536921433s
+badger 2020/09/16 14:24:58 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:24:59 INFO: Storing value log head: {Fid:285 Len:32 Offset:3400054}
+badger 2020/09/16 14:24:59 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.010994061s
+badger 2020/09/16 14:24:59 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 952 288000000
+badger 2020/09/16 14:25:03 INFO: Storing value log head: {Fid:286 Len:32 Offset:10200186}
+badger 2020/09/16 14:25:07 INFO: Storing value log head: {Fid:287 Len:32 Offset:17000318}
+INFO 957 289000000
+INFO 957 290000000
+INFO 958 291000000
+badger 2020/09/16 14:25:11 INFO: Storing value log head: {Fid:288 Len:32 Offset:23800450}
+badger 2020/09/16 14:25:11 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:25:15 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 3.413118217s
+badger 2020/09/16 14:25:15 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:25:15 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5522926859557629 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:25:15 INFO: Storing value log head: {Fid:289 Len:32 Offset:30600582}
+badger 2020/09/16 14:25:16 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.292114102s
+badger 2020/09/16 14:25:16 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:25:16 INFO: [Compactor: 0] Running compaction: {level:1 score:1.279988817870617 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:25:16 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0000739795466265 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:25:17 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.306905782s
+badger 2020/09/16 14:25:17 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:25:17 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.379066164s
+badger 2020/09/16 14:25:17 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:25:17 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0076850280165672 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:25:17 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0000786411265532 dropPrefixes:[]} for level: 2
+INFO 968 292000000
+INFO 968 293000000
+INFO 968 294000000
+badger 2020/09/16 14:25:19 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.695107944s
+badger 2020/09/16 14:25:19 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:25:19 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.794574822s
+badger 2020/09/16 14:25:19 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:25:20 INFO: Storing value log head: {Fid:291 Len:32 Offset:3400054}
+badger 2020/09/16 14:25:23 INFO: Storing value log head: {Fid:292 Len:32 Offset:10200186}
+badger 2020/09/16 14:25:28 INFO: Storing value log head: {Fid:293 Len:32 Offset:17000318}
+INFO 979 295000000
+INFO 979 296000000
+INFO 979 297000000
+badger 2020/09/16 14:25:31 INFO: Storing value log head: {Fid:294 Len:32 Offset:23800450}
+badger 2020/09/16 14:25:32 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:25:35 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 2.980206246s
+badger 2020/09/16 14:25:35 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:25:35 INFO: [Compactor: 0] Running compaction: {level:1 score:1.464376412332058 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:25:36 INFO: Storing value log head: {Fid:295 Len:32 Offset:30600582}
+badger 2020/09/16 14:25:36 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.432672096s
+badger 2020/09/16 14:25:36 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:25:36 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1920725665986538 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:25:36 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0180473499000073 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:25:38 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.626562154s
+badger 2020/09/16 14:25:38 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:25:38 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0179545772572358 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:25:38 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.647311732s
+badger 2020/09/16 14:25:38 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:25:39 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 853.170957ms
+badger 2020/09/16 14:25:39 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 990 298000000
+badger 2020/09/16 14:25:40 INFO: Storing value log head: {Fid:297 Len:32 Offset:3400054}
+INFO 990 299000000
+INFO 990 300000000
+badger 2020/09/16 14:25:43 INFO: Storing value log head: {Fid:298 Len:32 Offset:10200186}
+badger 2020/09/16 14:25:47 INFO: Storing value log head: {Fid:299 Len:32 Offset:17000318}
+INFO 999 301000000
+INFO 1000 302000000
+INFO 1000 303000000
+badger 2020/09/16 14:25:51 INFO: Storing value log head: {Fid:300 Len:32 Offset:23800450}
+badger 2020/09/16 14:25:52 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 1005 304000000
+badger 2020/09/16 14:25:55 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 3.463408894s
+badger 2020/09/16 14:25:55 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:25:55 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6481020636856556 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:25:55 INFO: Storing value log head: {Fid:301 Len:32 Offset:30600582}
+badger 2020/09/16 14:25:55 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 156.079156ms
+badger 2020/09/16 14:25:55 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:25:55 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6424393504858017 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:25:55 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000178834795952 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:25:57 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.331175091s
+badger 2020/09/16 14:25:57 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:25:57 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.396300144s
+badger 2020/09/16 14:25:57 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:25:57 INFO: [Compactor: 0] Running compaction: {level:1 score:1.3701355829834938 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:25:57 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0000864696999392 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:25:58 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.40402447s
+badger 2020/09/16 14:25:58 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:25:58 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.423657126s
+badger 2020/09/16 14:25:58 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:25:58 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0978317596018314 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:25:59 INFO: Storing value log head: {Fid:303 Len:32 Offset:3400054}
+badger 2020/09/16 14:25:59 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.276766583s
+badger 2020/09/16 14:25:59 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:25:59 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0180553629994393 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:26:01 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.129656377s
+badger 2020/09/16 14:26:01 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 1011 305000000
+INFO 1011 306000000
+INFO 1011 307000000
+badger 2020/09/16 14:26:03 INFO: Storing value log head: {Fid:304 Len:32 Offset:10200186}
+badger 2020/09/16 14:26:07 INFO: Storing value log head: {Fid:305 Len:32 Offset:17000318}
+INFO 1021 308000000
+badger 2020/09/16 14:26:11 INFO: Storing value log head: {Fid:306 Len:32 Offset:23800450}
+INFO 1022 309000000
+badger 2020/09/16 14:26:12 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 1022 310000000
+badger 2020/09/16 14:26:15 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 3.429597841s
+badger 2020/09/16 14:26:15 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:26:15 INFO: [Compactor: 0] Running compaction: {level:1 score:1.550140880048275 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:26:15 INFO: Storing value log head: {Fid:307 Len:32 Offset:30600582}
+badger 2020/09/16 14:26:16 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.233618701s
+badger 2020/09/16 14:26:16 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:26:16 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2778370268642902 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:26:16 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0179577708244323 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:26:18 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.190301242s
+badger 2020/09/16 14:26:18 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:26:18 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0178678373495738 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:26:18 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.270873174s
+badger 2020/09/16 14:26:18 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:26:18 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0055333860218525 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:26:19 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.75531178s
+badger 2020/09/16 14:26:19 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:26:19 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0177750604848066 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:26:20 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.806509087s
+badger 2020/09/16 14:26:20 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:26:20 INFO: Storing value log head: {Fid:309 Len:32 Offset:3400054}
+badger 2020/09/16 14:26:20 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 811.033983ms
+badger 2020/09/16 14:26:20 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:26:20 INFO: [Compactor: 1] Running compaction: {level:2 score:1.00079598625501 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:26:21 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 863.280506ms
+badger 2020/09/16 14:26:21 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 1033 311000000
+INFO 1033 312000000
+INFO 1033 313000000
+badger 2020/09/16 14:26:24 INFO: Storing value log head: {Fid:310 Len:32 Offset:10200186}
+badger 2020/09/16 14:26:28 INFO: Storing value log head: {Fid:311 Len:32 Offset:17000318}
+badger 2020/09/16 14:26:32 INFO: Storing value log head: {Fid:312 Len:32 Offset:23800450}
+badger 2020/09/16 14:26:33 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 1043 314000000
+INFO 1043 315000000
+INFO 1044 316000000
+badger 2020/09/16 14:26:36 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 2.964104876s
+badger 2020/09/16 14:26:36 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:26:36 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4635062888264656 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:26:36 INFO: Storing value log head: {Fid:313 Len:32 Offset:30600582}
+badger 2020/09/16 14:26:37 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.327197707s
+badger 2020/09/16 14:26:37 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:26:37 INFO: [Compactor: 0] Running compaction: {level:1 score:1.191202450543642 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:26:37 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0007041888932386 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:26:39 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.699587893s
+badger 2020/09/16 14:26:39 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:26:39 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.661227329s
+badger 2020/09/16 14:26:39 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:26:39 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0006047569215297 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:26:39 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 801.96112ms
+badger 2020/09/16 14:26:39 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:26:40 INFO: Storing value log head: {Fid:315 Len:32 Offset:3400054}
+INFO 1053 317000000
+badger 2020/09/16 14:26:44 INFO: Storing value log head: {Fid:316 Len:32 Offset:10200186}
+INFO 1054 318000000
+INFO 1055 319000000
+badger 2020/09/16 14:26:48 INFO: Storing value log head: {Fid:317 Len:32 Offset:17000318}
+INFO 1059 320000000
+badger 2020/09/16 14:26:52 INFO: Storing value log head: {Fid:318 Len:32 Offset:23800450}
+badger 2020/09/16 14:26:52 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 1065 321000000
+INFO 1065 322000000
+INFO 1065 323000000
+badger 2020/09/16 14:26:56 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 3.718437966s
+badger 2020/09/16 14:26:56 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:26:56 INFO: [Compactor: 0] Running compaction: {level:1 score:1.650681011378765 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:26:56 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 39.447668ms
+badger 2020/09/16 14:26:56 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:26:56 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6448593400418758 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:26:56 INFO: Storing value log head: {Fid:319 Len:32 Offset:30600582}
+badger 2020/09/16 14:26:58 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.713353353s
+badger 2020/09/16 14:26:58 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:26:58 INFO: [Compactor: 0] Running compaction: {level:1 score:1.3725555464625359 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:26:58 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000853879749775 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:26:59 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.322175814s
+badger 2020/09/16 14:26:59 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:26:59 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.395646574s
+badger 2020/09/16 14:26:59 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:26:59 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1002517230808735 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:26:59 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0007637120783328 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:27:00 INFO: Storing value log head: {Fid:321 Len:32 Offset:3400054}
+badger 2020/09/16 14:27:00 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.27305111s
+badger 2020/09/16 14:27:00 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:27:00 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.364323498s
+badger 2020/09/16 14:27:00 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:27:00 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0006423234939574 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:27:01 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 874.036903ms
+badger 2020/09/16 14:27:01 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:27:04 INFO: Storing value log head: {Fid:322 Len:32 Offset:10200186}
+INFO 1075 324000000
+INFO 1076 325000000
+INFO 1076 326000000
+badger 2020/09/16 14:27:08 INFO: Storing value log head: {Fid:323 Len:32 Offset:17000318}
+badger 2020/09/16 14:27:12 INFO: Storing value log head: {Fid:324 Len:32 Offset:23800450}
+badger 2020/09/16 14:27:12 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:27:16 INFO: LOG Compact 0->1, del 8 tables, add 5 tables, took 3.158740594s
+badger 2020/09/16 14:27:16 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:27:16 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5541087351739407 dropPrefixes:[]} for level: 1
+INFO 1086 327000000
+INFO 1086 328000000
+badger 2020/09/16 14:27:17 INFO: Storing value log head: {Fid:325 Len:32 Offset:30600582}
+INFO 1087 329000000
+badger 2020/09/16 14:27:17 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.841816999s
+badger 2020/09/16 14:27:17 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:27:17 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2818049602210522 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:27:17 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0004631760219733 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:27:19 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.359345298s
+badger 2020/09/16 14:27:19 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:27:19 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0002311197419962 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:27:19 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.73130788s
+badger 2020/09/16 14:27:19 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:27:19 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0095011927187443 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:27:21 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.34698869s
+badger 2020/09/16 14:27:21 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:27:21 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0001402907073498 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:27:21 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.701158017s
+badger 2020/09/16 14:27:21 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:27:21 INFO: Storing value log head: {Fid:327 Len:32 Offset:3400054}
+badger 2020/09/16 14:27:22 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 953.916403ms
+badger 2020/09/16 14:27:22 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:27:25 INFO: Storing value log head: {Fid:328 Len:32 Offset:10200186}
+INFO 1098 330000000
+INFO 1098 331000000
+INFO 1098 332000000
+badger 2020/09/16 14:27:29 INFO: Storing value log head: {Fid:329 Len:32 Offset:17000318}
+badger 2020/09/16 14:27:33 INFO: Storing value log head: {Fid:330 Len:32 Offset:23800450}
+badger 2020/09/16 14:27:33 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:27:36 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 3.001774223s
+badger 2020/09/16 14:27:36 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:27:36 INFO: [Compactor: 0] Running compaction: {level:1 score:1.466538906097412 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:27:38 INFO: Storing value log head: {Fid:331 Len:32 Offset:30600582}
+badger 2020/09/16 14:27:38 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.286915514s
+badger 2020/09/16 14:27:38 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:27:38 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1942351460456848 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:27:38 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000047715753317 dropPrefixes:[]} for level: 2
+INFO 1108 333000000
+INFO 1109 334000000
+badger 2020/09/16 14:27:39 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.580601826s
+badger 2020/09/16 14:27:39 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:27:39 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.683986345s
+badger 2020/09/16 14:27:39 INFO: [Compactor: 0] Compaction for level: 1 DONE
+INFO 1110 335000000
+badger 2020/09/16 14:27:42 INFO: Storing value log head: {Fid:333 Len:32 Offset:3400054}
+INFO 1114 336000000
+badger 2020/09/16 14:27:46 INFO: Storing value log head: {Fid:334 Len:32 Offset:10200186}
+badger 2020/09/16 14:27:49 INFO: Storing value log head: {Fid:335 Len:32 Offset:17000318}
+INFO 1119 337000000
+INFO 1120 338000000
+INFO 1120 339000000
+badger 2020/09/16 14:27:53 INFO: Storing value log head: {Fid:336 Len:32 Offset:23800450}
+badger 2020/09/16 14:27:53 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:27:57 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 3.779396429s
+badger 2020/09/16 14:27:57 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:27:57 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6530695408582687 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:27:57 INFO: Storing value log head: {Fid:337 Len:32 Offset:30600582}
+badger 2020/09/16 14:27:59 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.329307731s
+badger 2020/09/16 14:27:59 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:27:59 INFO: [Compactor: 0] Running compaction: {level:1 score:1.3807657100260258 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:27:59 INFO: [Compactor: 1] Running compaction: {level:2 score:1.017973328381777 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:28:00 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.250667342s
+badger 2020/09/16 14:28:00 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:28:00 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0178808567424615 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:28:00 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.274107349s
+badger 2020/09/16 14:28:00 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:28:00 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1084618605673313 dropPrefixes:[]} for level: 1
+INFO 1130 340000000
+INFO 1130 341000000
+INFO 1131 342000000
+badger 2020/09/16 14:28:01 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.364084531s
+badger 2020/09/16 14:28:01 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:28:01 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0007084064185618 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:28:01 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.410831952s
+badger 2020/09/16 14:28:01 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:28:02 INFO: Storing value log head: {Fid:339 Len:32 Offset:3400054}
+badger 2020/09/16 14:28:02 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 903.515224ms
+badger 2020/09/16 14:28:02 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:28:02 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0005806398888428 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:28:03 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 890.367715ms
+badger 2020/09/16 14:28:03 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:28:06 INFO: Storing value log head: {Fid:340 Len:32 Offset:10200186}
+badger 2020/09/16 14:28:10 INFO: Storing value log head: {Fid:341 Len:32 Offset:17000318}
+INFO 1141 343000000
+INFO 1141 344000000
+INFO 1142 345000000
+badger 2020/09/16 14:28:14 INFO: Storing value log head: {Fid:342 Len:32 Offset:23800450}
+badger 2020/09/16 14:28:14 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:28:17 INFO: LOG Compact 0->1, del 8 tables, add 5 tables, took 3.138506144s
+badger 2020/09/16 14:28:17 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:28:17 INFO: [Compactor: 0] Running compaction: {level:1 score:1.560433354228735 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:28:18 INFO: Storing value log head: {Fid:343 Len:32 Offset:30600582}
+badger 2020/09/16 14:28:19 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.6406088s
+badger 2020/09/16 14:28:19 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:28:19 INFO: [Compactor: 0] Running compaction: {level:1 score:1.288129709661007 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:28:19 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0004029763241609 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:28:21 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.411363286s
+badger 2020/09/16 14:28:21 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:28:21 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000489549835523 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:28:21 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.46964292s
+badger 2020/09/16 14:28:21 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:28:21 INFO: [Compactor: 0] Running compaction: {level:1 score:1.015825878828764 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:28:22 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.880192622s
+badger 2020/09/16 14:28:22 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:28:22 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.932890538s
+badger 2020/09/16 14:28:22 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:28:22 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0003970270355542 dropPrefixes:[]} for level: 2
+INFO 1153 346000000
+badger 2020/09/16 14:28:23 INFO: Storing value log head: {Fid:345 Len:32 Offset:3400054}
+INFO 1153 347000000
+INFO 1154 348000000
+badger 2020/09/16 14:28:24 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.078823428s
+badger 2020/09/16 14:28:24 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:28:27 INFO: Storing value log head: {Fid:346 Len:32 Offset:10200186}
+badger 2020/09/16 14:28:31 INFO: Storing value log head: {Fid:347 Len:32 Offset:17000318}
+INFO 1163 349000000
+INFO 1164 350000000
+INFO 1164 351000000
+badger 2020/09/16 14:28:35 INFO: Storing value log head: {Fid:348 Len:32 Offset:23800450}
+badger 2020/09/16 14:28:35 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:28:38 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 3.024221591s
+badger 2020/09/16 14:28:38 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:28:38 INFO: [Compactor: 0] Running compaction: {level:1 score:1.476894799619913 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:28:40 INFO: Storing value log head: {Fid:349 Len:32 Offset:30600582}
+badger 2020/09/16 14:28:40 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.230879428s
+badger 2020/09/16 14:28:40 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:28:40 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2045909725129604 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:28:40 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0003047958016396 dropPrefixes:[]} for level: 2
+INFO 1170 352000000
+badger 2020/09/16 14:28:41 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.16576906s
+badger 2020/09/16 14:28:41 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:28:41 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.592463438s
+badger 2020/09/16 14:28:41 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:28:41 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0002186405162017 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:28:42 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 841.946667ms
+badger 2020/09/16 14:28:42 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:28:44 INFO: Storing value log head: {Fid:351 Len:32 Offset:3400054}
+INFO 1175 353000000
+INFO 1175 354000000
+INFO 1176 355000000
+badger 2020/09/16 14:28:48 INFO: Storing value log head: {Fid:352 Len:32 Offset:10200186}
+badger 2020/09/16 14:28:52 INFO: Storing value log head: {Fid:353 Len:32 Offset:17000318}
+INFO 1186 356000000
+badger 2020/09/16 14:28:56 INFO: Storing value log head: {Fid:354 Len:32 Offset:23800450}
+INFO 1186 357000000
+badger 2020/09/16 14:28:56 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 1186 358000000
+badger 2020/09/16 14:29:00 INFO: Storing value log head: {Fid:355 Len:32 Offset:30600582}
+badger 2020/09/16 14:29:00 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 3.922204817s
+badger 2020/09/16 14:29:00 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:29:00 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6583695113658905 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:29:02 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.676394763s
+badger 2020/09/16 14:29:02 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:29:02 INFO: [Compactor: 0] Running compaction: {level:1 score:1.386065699160099 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:29:02 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0001254320144652 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:29:03 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.597253393s
+badger 2020/09/16 14:29:03 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:29:03 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.677839564s
+badger 2020/09/16 14:29:03 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:29:03 INFO: [Compactor: 0] Running compaction: {level:1 score:1.11376191675663 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:29:03 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0000348806381225 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:29:04 INFO: Storing value log head: {Fid:357 Len:32 Offset:3400054}
+badger 2020/09/16 14:29:05 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.388044391s
+badger 2020/09/16 14:29:05 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:29:05 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.489223628s
+badger 2020/09/16 14:29:05 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:29:05 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0000351404150327 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:29:06 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 915.235995ms
+badger 2020/09/16 14:29:06 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 1197 359000000
+INFO 1197 360000000
+INFO 1198 361000000
+badger 2020/09/16 14:29:09 INFO: Storing value log head: {Fid:358 Len:32 Offset:10200186}
+badger 2020/09/16 14:29:12 INFO: Storing value log head: {Fid:359 Len:32 Offset:17000318}
+badger 2020/09/16 14:29:16 INFO: Storing value log head: {Fid:360 Len:32 Offset:23800450}
+badger 2020/09/16 14:29:17 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 1207 362000000
+INFO 1208 363000000
+INFO 1208 364000000
+badger 2020/09/16 14:29:20 INFO: LOG Compact 0->1, del 8 tables, add 5 tables, took 3.208146607s
+badger 2020/09/16 14:29:20 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:29:20 INFO: [Compactor: 0] Running compaction: {level:1 score:1.566101174801588 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:29:21 INFO: Storing value log head: {Fid:361 Len:32 Offset:30600582}
+badger 2020/09/16 14:29:22 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.88610033s
+badger 2020/09/16 14:29:22 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:29:22 INFO: [Compactor: 0] Running compaction: {level:1 score:1.293797343969345 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:29:23 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.324453989s
+badger 2020/09/16 14:29:23 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:29:23 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0214935056865215 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:29:23 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0179823776086172 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:29:25 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.899599905s
+badger 2020/09/16 14:29:25 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:29:25 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.973119411s
+badger 2020/09/16 14:29:25 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:29:25 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0177878571053347 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:29:26 INFO: Storing value log head: {Fid:363 Len:32 Offset:3400054}
+badger 2020/09/16 14:29:26 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.064809202s
+badger 2020/09/16 14:29:26 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 1219 365000000
+badger 2020/09/16 14:29:30 INFO: Storing value log head: {Fid:364 Len:32 Offset:10200186}
+INFO 1220 366000000
+INFO 1220 367000000
+badger 2020/09/16 14:29:34 INFO: Storing value log head: {Fid:365 Len:32 Offset:17000318}
+INFO 1225 368000000
+badger 2020/09/16 14:29:38 INFO: Storing value log head: {Fid:366 Len:32 Offset:23800450}
+badger 2020/09/16 14:29:38 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 1230 369000000
+INFO 1231 370000000
+INFO 1231 371000000
+badger 2020/09/16 14:29:41 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 3.033983588s
+badger 2020/09/16 14:29:41 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:29:41 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4845785945653915 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:29:43 INFO: Storing value log head: {Fid:367 Len:32 Offset:30600582}
+badger 2020/09/16 14:29:43 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.396922404s
+badger 2020/09/16 14:29:43 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:29:43 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2122747302055359 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:29:43 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0176649866004785 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:29:44 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.498226029s
+badger 2020/09/16 14:29:44 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:29:44 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.552057364s
+badger 2020/09/16 14:29:44 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:29:44 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0175721993048985 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:29:45 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 902.715444ms
+badger 2020/09/16 14:29:45 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:29:47 INFO: Storing value log head: {Fid:369 Len:32 Offset:3400054}
+badger 2020/09/16 14:29:51 INFO: Storing value log head: {Fid:370 Len:32 Offset:10200186}
+INFO 1242 372000000
+INFO 1242 373000000
+INFO 1243 374000000
+badger 2020/09/16 14:29:54 INFO: Storing value log head: {Fid:371 Len:32 Offset:17000318}
+badger 2020/09/16 14:29:58 INFO: Storing value log head: {Fid:372 Len:32 Offset:23800450}
+badger 2020/09/16 14:29:59 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 1253 375000000
+badger 2020/09/16 14:30:03 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 3.837466372s
+badger 2020/09/16 14:30:03 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:30:03 INFO: [Compactor: 0] Running compaction: {level:1 score:1.666766095906496 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:30:03 INFO: Storing value log head: {Fid:373 Len:32 Offset:30600582}
+INFO 1253 376000000
+INFO 1253 377000000
+badger 2020/09/16 14:30:04 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.361836495s
+badger 2020/09/16 14:30:04 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:30:04 INFO: [Compactor: 0] Running compaction: {level:1 score:1.394462265074253 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:30:04 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0174810230731963 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:30:05 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.502367627s
+badger 2020/09/16 14:30:05 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:30:05 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0173895969986915 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:30:06 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.546858527s
+badger 2020/09/16 14:30:06 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:30:06 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1221584007143974 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:30:07 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.469791435s
+badger 2020/09/16 14:30:07 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:30:07 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.51215756s
+badger 2020/09/16 14:30:07 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:30:07 INFO: [Compactor: 1] Running compaction: {level:2 score:1.017277146379153 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:30:07 INFO: Storing value log head: {Fid:375 Len:32 Offset:3400054}
+badger 2020/09/16 14:30:08 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.047671992s
+badger 2020/09/16 14:30:08 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:30:11 INFO: Storing value log head: {Fid:376 Len:32 Offset:10200186}
+INFO 1264 378000000
+INFO 1264 379000000
+INFO 1264 380000000
+badger 2020/09/16 14:30:15 INFO: Storing value log head: {Fid:377 Len:32 Offset:17000318}
+badger 2020/09/16 14:30:19 INFO: Storing value log head: {Fid:378 Len:32 Offset:23800450}
+badger 2020/09/16 14:30:20 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:30:23 INFO: LOG Compact 0->1, del 8 tables, add 5 tables, took 3.261041875s
+badger 2020/09/16 14:30:23 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:30:23 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5842136852443218 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:30:23 INFO: Storing value log head: {Fid:379 Len:32 Offset:30600582}
+INFO 1274 381000000
+badger 2020/09/16 14:30:25 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 2.024488342s
+badger 2020/09/16 14:30:25 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:30:25 INFO: [Compactor: 0] Running compaction: {level:1 score:1.3119098730385303 dropPrefixes:[]} for level: 1
+INFO 1275 382000000
+badger 2020/09/16 14:30:25 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0171836512784163 dropPrefixes:[]} for level: 2
+INFO 1275 383000000
+badger 2020/09/16 14:30:27 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.474021299s
+badger 2020/09/16 14:30:27 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:30:27 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0170912449558576 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:30:27 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.525693471s
+badger 2020/09/16 14:30:27 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:30:27 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0396060943603516 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:30:28 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.908177477s
+badger 2020/09/16 14:30:28 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:30:29 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.957777203s
+badger 2020/09/16 14:30:29 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:30:29 INFO: Storing value log head: {Fid:381 Len:32 Offset:3400054}
+badger 2020/09/16 14:30:29 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0168604137996833 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:30:29 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 847.869128ms
+badger 2020/09/16 14:30:29 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 1282 384000000
+badger 2020/09/16 14:30:32 INFO: Storing value log head: {Fid:382 Len:32 Offset:10200186}
+badger 2020/09/16 14:30:36 INFO: Storing value log head: {Fid:383 Len:32 Offset:17000318}
+INFO 1286 385000000
+INFO 1287 386000000
+INFO 1287 387000000
+badger 2020/09/16 14:30:40 INFO: Storing value log head: {Fid:384 Len:32 Offset:23800450}
+badger 2020/09/16 14:30:41 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:30:44 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 3.121234502s
+badger 2020/09/16 14:30:44 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:30:44 INFO: [Compactor: 0] Running compaction: {level:1 score:1.491265431046486 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:30:44 INFO: Storing value log head: {Fid:385 Len:32 Offset:30600582}
+badger 2020/09/16 14:30:45 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.436879487s
+badger 2020/09/16 14:30:45 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:30:45 INFO: [Compactor: 0] Running compaction: {level:1 score:1.218961637467146 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:30:45 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0167672740916411 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:30:47 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.363038872s
+badger 2020/09/16 14:30:47 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:30:47 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0005478667716186 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:30:47 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.48200676s
+badger 2020/09/16 14:30:47 INFO: [Compactor: 0] Compaction for level: 1 DONE
+INFO 1297 388000000
+INFO 1297 389000000
+INFO 1298 390000000
+badger 2020/09/16 14:30:48 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.051324951s
+badger 2020/09/16 14:30:48 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:30:48 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0004556628564993 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:30:49 INFO: Storing value log head: {Fid:387 Len:32 Offset:3400054}
+badger 2020/09/16 14:30:49 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.181905335s
+badger 2020/09/16 14:30:49 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:30:53 INFO: Storing value log head: {Fid:388 Len:32 Offset:10200186}
+badger 2020/09/16 14:30:56 INFO: Storing value log head: {Fid:389 Len:32 Offset:17000318}
+INFO 1308 391000000
+INFO 1308 392000000
+INFO 1308 393000000
+badger 2020/09/16 14:31:00 INFO: Storing value log head: {Fid:390 Len:32 Offset:23800450}
+badger 2020/09/16 14:31:01 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:31:04 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 3.833309643s
+badger 2020/09/16 14:31:04 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:31:04 INFO: [Compactor: 0] Running compaction: {level:1 score:1.673041358590126 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:31:05 INFO: Storing value log head: {Fid:391 Len:32 Offset:30600582}
+badger 2020/09/16 14:31:06 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.345812374s
+badger 2020/09/16 14:31:06 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:31:06 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4007374942302704 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:31:06 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0003631244103113 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:31:07 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.453474136s
+badger 2020/09/16 14:31:07 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:31:07 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0004669676224391 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:31:07 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.506458105s
+badger 2020/09/16 14:31:07 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:31:07 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1284336745738983 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:31:09 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.604571747s
+badger 2020/09/16 14:31:09 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:31:09 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000370947768291 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:31:09 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.654729701s
+badger 2020/09/16 14:31:09 INFO: [Compactor: 0] Compaction for level: 1 DONE
+INFO 1319 394000000
+badger 2020/09/16 14:31:10 INFO: Storing value log head: {Fid:393 Len:32 Offset:3400054}
+INFO 1320 395000000
+badger 2020/09/16 14:31:10 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 918.34704ms
+badger 2020/09/16 14:31:10 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 1320 396000000
+badger 2020/09/16 14:31:13 INFO: Storing value log head: {Fid:394 Len:32 Offset:10200186}
+badger 2020/09/16 14:31:17 INFO: Storing value log head: {Fid:395 Len:32 Offset:17000318}
+INFO 1329 397000000
+INFO 1330 398000000
+INFO 1330 399000000
+badger 2020/09/16 14:31:21 INFO: Storing value log head: {Fid:396 Len:32 Offset:23800450}
+badger 2020/09/16 14:31:22 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:31:25 INFO: LOG Compact 0->1, del 8 tables, add 5 tables, took 3.267992787s
+badger 2020/09/16 14:31:25 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:31:25 INFO: [Compactor: 0] Running compaction: {level:1 score:1.587153010070324 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:31:25 INFO: Storing value log head: {Fid:397 Len:32 Offset:30600582}
+INFO 1336 400000000
+badger 2020/09/16 14:31:26 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.414905142s
+badger 2020/09/16 14:31:26 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:31:26 INFO: [Compactor: 0] Running compaction: {level:1 score:1.3148492127656937 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:31:26 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0002652496099471 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:31:28 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.686429457s
+badger 2020/09/16 14:31:28 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:31:28 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0001741913457711 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:31:28 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.761029168s
+badger 2020/09/16 14:31:28 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:31:28 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0425454713404179 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:31:30 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.988512185s
+badger 2020/09/16 14:31:30 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:31:30 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 2.033922721s
+badger 2020/09/16 14:31:30 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:31:30 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0000802444914976 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:31:31 INFO: Storing value log head: {Fid:399 Len:32 Offset:3400054}
+badger 2020/09/16 14:31:31 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 980.785537ms
+badger 2020/09/16 14:31:31 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 1342 401000000
+INFO 1342 402000000
+INFO 1343 403000000
+badger 2020/09/16 14:31:35 INFO: Storing value log head: {Fid:400 Len:32 Offset:10200186}
+badger 2020/09/16 14:31:38 INFO: Storing value log head: {Fid:401 Len:32 Offset:17000318}
+INFO 1352 404000000
+badger 2020/09/16 14:31:42 INFO: Storing value log head: {Fid:402 Len:32 Offset:23800450}
+INFO 1352 405000000
+badger 2020/09/16 14:31:43 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 1353 406000000
+badger 2020/09/16 14:31:46 INFO: LOG Compact 0->1, del 7 tables, add 5 tables, took 3.380586757s
+badger 2020/09/16 14:31:46 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:31:46 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4949330985546112 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:31:46 INFO: Storing value log head: {Fid:403 Len:32 Offset:30600582}
+badger 2020/09/16 14:31:47 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0006518664459387 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:31:47 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.356600522s
+badger 2020/09/16 14:31:47 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:31:47 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2226292937994003 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:31:49 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.384737796s
+badger 2020/09/16 14:31:49 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:31:49 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.434459426s
+badger 2020/09/16 14:31:49 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:31:49 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000559145708879 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:31:50 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.067297824s
+badger 2020/09/16 14:31:50 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:31:51 INFO: Storing value log head: {Fid:405 Len:32 Offset:3400054}
+INFO 1363 407000000
+INFO 1363 408000000
+INFO 1363 409000000
+badger 2020/09/16 14:31:54 INFO: Storing value log head: {Fid:406 Len:32 Offset:10200186}
+badger 2020/09/16 14:31:58 INFO: Storing value log head: {Fid:407 Len:32 Offset:17000318}
+badger 2020/09/16 14:32:02 INFO: Storing value log head: {Fid:408 Len:32 Offset:23800450}
+badger 2020/09/16 14:32:03 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 1373 410000000
+INFO 1374 411000000
+INFO 1374 412000000
+badger 2020/09/16 14:32:06 INFO: Storing value log head: {Fid:409 Len:32 Offset:30600582}
+badger 2020/09/16 14:32:07 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 3.793395319s
+badger 2020/09/16 14:32:07 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:32:07 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6773044057190418 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:32:08 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.305178814s
+badger 2020/09/16 14:32:08 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:32:08 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4050006084144115 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:32:08 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0004665724933148 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:32:09 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.567181492s
+badger 2020/09/16 14:32:09 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:32:09 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.624027932s
+badger 2020/09/16 14:32:09 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:32:09 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1326967403292656 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:32:09 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0003743429978689 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:32:11 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.333814216s
+badger 2020/09/16 14:32:11 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:32:11 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000507159034411 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:32:11 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.414624557s
+badger 2020/09/16 14:32:11 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:32:11 INFO: Storing value log head: {Fid:411 Len:32 Offset:3400054}
+badger 2020/09/16 14:32:14 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 3.005099116s
+badger 2020/09/16 14:32:14 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 1387 413000000
+badger 2020/09/16 14:32:18 INFO: Storing value log head: {Fid:412 Len:32 Offset:10200186}
+INFO 1388 414000000
+INFO 1388 415000000
+badger 2020/09/16 14:32:21 INFO: Storing value log head: {Fid:413 Len:32 Offset:17000318}
+INFO 1394 416000000
+badger 2020/09/16 14:32:25 INFO: Storing value log head: {Fid:414 Len:32 Offset:23800450}
+badger 2020/09/16 14:32:26 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 1398 417000000
+INFO 1398 418000000
+INFO 1399 419000000
+badger 2020/09/16 14:32:29 INFO: LOG Compact 0->1, del 8 tables, add 5 tables, took 3.60626411s
+badger 2020/09/16 14:32:29 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:32:29 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5945694111287594 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:32:30 INFO: Storing value log head: {Fid:415 Len:32 Offset:30600582}
+badger 2020/09/16 14:32:32 INFO: LOG Compact 1->2, del 5 tables, add 5 tables, took 2.674228001s
+badger 2020/09/16 14:32:32 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:32:32 INFO: [Compactor: 0] Running compaction: {level:1 score:1.3223275355994701 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:32:32 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0004087403416633 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:32:35 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 2.757932325s
+badger 2020/09/16 14:32:35 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:32:36 INFO: Storing value log head: {Fid:417 Len:32 Offset:3400054}
+badger 2020/09/16 14:32:36 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0004087450603645 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:32:36 INFO: LOG Compact 1->2, del 7 tables, add 7 tables, took 4.051622708s
+badger 2020/09/16 14:32:36 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:32:36 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0500237494707108 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:32:37 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.583728586s
+badger 2020/09/16 14:32:37 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:32:38 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.640017191s
+badger 2020/09/16 14:32:38 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:32:38 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0003176614642144 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:32:39 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.02339217s
+badger 2020/09/16 14:32:39 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:32:40 INFO: Storing value log head: {Fid:418 Len:32 Offset:10200186}
+INFO 1411 420000000
+INFO 1411 421000000
+INFO 1412 422000000
+badger 2020/09/16 14:32:44 INFO: Storing value log head: {Fid:419 Len:32 Offset:17000318}
+badger 2020/09/16 14:32:47 INFO: Storing value log head: {Fid:420 Len:32 Offset:23800450}
+badger 2020/09/16 14:32:48 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 1422 423000000
+badger 2020/09/16 14:32:52 INFO: Storing value log head: {Fid:421 Len:32 Offset:30600582}
+INFO 1422 424000000
+badger 2020/09/16 14:32:52 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 4.146392409s
+badger 2020/09/16 14:32:52 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:32:52 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5019814632833004 dropPrefixes:[]} for level: 1
+INFO 1422 425000000
+badger 2020/09/16 14:32:53 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.318938868s
+badger 2020/09/16 14:32:53 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:32:53 INFO: [Compactor: 0] Running compaction: {level:1 score:1.229677651077509 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:32:53 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0002212588985762 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:32:55 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.369663985s
+badger 2020/09/16 14:32:55 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:32:55 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.499685645s
+badger 2020/09/16 14:32:55 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:32:55 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0001286300520102 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:32:56 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 857.862558ms
+badger 2020/09/16 14:32:56 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:32:56 INFO: Storing value log head: {Fid:423 Len:32 Offset:3400054}
+badger 2020/09/16 14:33:00 INFO: Storing value log head: {Fid:424 Len:32 Offset:10200186}
+INFO 1432 426000000
+INFO 1432 427000000
+INFO 1433 428000000
+badger 2020/09/16 14:33:04 INFO: Storing value log head: {Fid:425 Len:32 Offset:17000318}
+badger 2020/09/16 14:33:08 INFO: Storing value log head: {Fid:426 Len:32 Offset:23800450}
+badger 2020/09/16 14:33:08 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:33:13 INFO: Storing value log head: {Fid:427 Len:32 Offset:30600582}
+badger 2020/09/16 14:33:13 INFO: LOG Compact 0->1, del 9 tables, add 7 tables, took 4.287049791s
+badger 2020/09/16 14:33:13 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:33:13 INFO: [Compactor: 0] Running compaction: {level:1 score:1.68410549685359 dropPrefixes:[]} for level: 1
+INFO 1443 429000000
+INFO 1444 430000000
+badger 2020/09/16 14:33:14 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.370371965s
+badger 2020/09/16 14:33:14 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:33:14 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4118016548454762 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:33:14 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0007990390062331 dropPrefixes:[]} for level: 2
+INFO 1444 431000000
+badger 2020/09/16 14:33:16 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.663530487s
+badger 2020/09/16 14:33:16 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:33:16 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.760048259s
+badger 2020/09/16 14:33:16 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:33:16 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1394978910684586 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:33:16 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000706763813893 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:33:17 INFO: Storing value log head: {Fid:429 Len:32 Offset:3400054}
+badger 2020/09/16 14:33:18 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.842613807s
+badger 2020/09/16 14:33:18 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:33:18 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.840915327s
+badger 2020/09/16 14:33:18 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:33:18 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0006143733859063 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:33:19 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 888.895143ms
+badger 2020/09/16 14:33:19 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 1451 432000000
+badger 2020/09/16 14:33:21 INFO: Storing value log head: {Fid:430 Len:32 Offset:10200186}
+badger 2020/09/16 14:33:25 INFO: Storing value log head: {Fid:431 Len:32 Offset:17000318}
+INFO 1455 433000000
+INFO 1456 434000000
+INFO 1456 435000000
+badger 2020/09/16 14:33:29 INFO: Storing value log head: {Fid:432 Len:32 Offset:23800450}
+badger 2020/09/16 14:33:29 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:33:34 INFO: Storing value log head: {Fid:433 Len:32 Offset:30600582}
+badger 2020/09/16 14:33:34 INFO: LOG Compact 0->1, del 9 tables, add 6 tables, took 4.337359693s
+badger 2020/09/16 14:33:34 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:33:34 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5989693067967892 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:33:36 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.858998879s
+badger 2020/09/16 14:33:36 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:33:36 INFO: [Compactor: 0] Running compaction: {level:1 score:1.326665598899126 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:33:36 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0004038465519747 dropPrefixes:[]} for level: 2
+INFO 1466 436000000
+INFO 1466 437000000
+INFO 1467 438000000
+badger 2020/09/16 14:33:37 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.787687276s
+badger 2020/09/16 14:33:37 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:33:37 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0543617978692055 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:33:37 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.766274017s
+badger 2020/09/16 14:33:37 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:33:37 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000312588363886 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:33:38 INFO: Storing value log head: {Fid:435 Len:32 Offset:3400054}
+badger 2020/09/16 14:33:39 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.767504065s
+badger 2020/09/16 14:33:39 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:33:39 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.822953291s
+badger 2020/09/16 14:33:39 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:33:39 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000222486257553 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:33:40 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 942.693284ms
+badger 2020/09/16 14:33:40 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:33:43 INFO: Storing value log head: {Fid:436 Len:32 Offset:10200186}
+badger 2020/09/16 14:33:47 INFO: Storing value log head: {Fid:437 Len:32 Offset:17000318}
+INFO 1478 439000000
+INFO 1478 440000000
+INFO 1478 441000000
+badger 2020/09/16 14:33:50 INFO: Storing value log head: {Fid:438 Len:32 Offset:23800450}
+badger 2020/09/16 14:33:51 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:33:55 INFO: Storing value log head: {Fid:439 Len:32 Offset:30600582}
+badger 2020/09/16 14:33:55 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 3.647052293s
+badger 2020/09/16 14:33:55 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:33:55 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5058249533176422 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:33:56 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.631752687s
+badger 2020/09/16 14:33:56 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:33:56 INFO: [Compactor: 0] Running compaction: {level:1 score:1.233521144837141 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:33:56 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0001297511160374 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:33:58 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.535326915s
+badger 2020/09/16 14:33:58 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:33:58 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0000372623403868 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:33:58 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.5953512s
+badger 2020/09/16 14:33:58 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:33:59 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 864.982998ms
+badger 2020/09/16 14:33:59 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 1489 442000000
+badger 2020/09/16 14:33:59 INFO: Storing value log head: {Fid:441 Len:32 Offset:3400054}
+INFO 1489 443000000
+INFO 1489 444000000
+badger 2020/09/16 14:34:03 INFO: Storing value log head: {Fid:442 Len:32 Offset:10200186}
+badger 2020/09/16 14:34:06 INFO: Storing value log head: {Fid:443 Len:32 Offset:17000318}
+INFO 1498 445000000
+INFO 1499 446000000
+INFO 1499 447000000
+badger 2020/09/16 14:34:10 INFO: Storing value log head: {Fid:444 Len:32 Offset:23800450}
+badger 2020/09/16 14:34:11 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:34:15 INFO: Storing value log head: {Fid:445 Len:32 Offset:30600582}
+badger 2020/09/16 14:34:15 INFO: LOG Compact 0->1, del 9 tables, add 7 tables, took 4.443867763s
+badger 2020/09/16 14:34:15 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:34:15 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6867713257670403 dropPrefixes:[]} for level: 1
+INFO 1505 448000000
+badger 2020/09/16 14:34:16 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.357645775s
+badger 2020/09/16 14:34:16 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:34:16 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4144674986600876 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:34:16 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000713012367487 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:34:18 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.571539333s
+badger 2020/09/16 14:34:18 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:34:18 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.648752526s
+badger 2020/09/16 14:34:18 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:34:18 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1421636529266834 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:34:18 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0006215517719588 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:34:19 INFO: Storing value log head: {Fid:447 Len:32 Offset:3400054}
+badger 2020/09/16 14:34:20 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.690161108s
+badger 2020/09/16 14:34:20 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:34:20 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0005353078246118 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:34:20 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.768653547s
+badger 2020/09/16 14:34:20 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:34:21 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 941.386755ms
+badger 2020/09/16 14:34:21 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 1511 449000000
+INFO 1512 450000000
+INFO 1512 451000000
+badger 2020/09/16 14:34:24 INFO: Storing value log head: {Fid:448 Len:32 Offset:10200186}
+badger 2020/09/16 14:34:28 INFO: Storing value log head: {Fid:449 Len:32 Offset:17000318}
+INFO 1522 452000000
+badger 2020/09/16 14:34:32 INFO: Storing value log head: {Fid:450 Len:32 Offset:23800450}
+INFO 1522 453000000
+badger 2020/09/16 14:34:32 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 1522 454000000
+badger 2020/09/16 14:34:36 INFO: Storing value log head: {Fid:451 Len:32 Offset:30600582}
+badger 2020/09/16 14:34:36 INFO: LOG Compact 0->1, del 9 tables, add 6 tables, took 3.976776156s
+badger 2020/09/16 14:34:36 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:34:36 INFO: [Compactor: 0] Running compaction: {level:1 score:1.602528654038906 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:34:38 INFO: LOG Compact 1->2, del 4 tables, add 4 tables, took 2.183600015s
+badger 2020/09/16 14:34:38 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:34:38 INFO: [Compactor: 0] Running compaction: {level:1 score:1.3302248008549213 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:34:38 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0006529418130716 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:34:40 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.567499696s
+badger 2020/09/16 14:34:40 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:34:40 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0005602099001407 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:34:40 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.642209548s
+badger 2020/09/16 14:34:40 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:34:40 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0579210259020329 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:34:41 INFO: Storing value log head: {Fid:453 Len:32 Offset:3400054}
+badger 2020/09/16 14:34:42 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 2.362401737s
+badger 2020/09/16 14:34:42 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:34:43 INFO: LOG Compact 1->2, del 6 tables, add 6 tables, took 3.225714459s
+badger 2020/09/16 14:34:43 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:34:43 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0004436569909254 dropPrefixes:[]} for level: 2
+INFO 1533 455000000
+INFO 1534 456000000
+INFO 1534 457000000
+badger 2020/09/16 14:34:44 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 911.404561ms
+badger 2020/09/16 14:34:44 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:34:45 INFO: Storing value log head: {Fid:454 Len:32 Offset:10200186}
+badger 2020/09/16 14:34:49 INFO: Storing value log head: {Fid:455 Len:32 Offset:17000318}
+badger 2020/09/16 14:34:53 INFO: Storing value log head: {Fid:456 Len:32 Offset:23800450}
+badger 2020/09/16 14:34:54 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 1544 458000000
+INFO 1544 459000000
+INFO 1545 460000000
+badger 2020/09/16 14:34:57 INFO: Storing value log head: {Fid:457 Len:32 Offset:30600582}
+badger 2020/09/16 14:34:57 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 3.797598918s
+badger 2020/09/16 14:34:57 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:34:57 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5103972107172012 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:34:59 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.354653886s
+badger 2020/09/16 14:34:59 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:34:59 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2380934432148933 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:34:59 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0003503707547983 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:35:01 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.723619826s
+badger 2020/09/16 14:35:01 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:35:01 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.831640871s
+badger 2020/09/16 14:35:01 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:35:01 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0002553025881449 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:35:01 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 790.735126ms
+badger 2020/09/16 14:35:01 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:35:02 INFO: Storing value log head: {Fid:459 Len:32 Offset:3400054}
+INFO 1555 461000000
+badger 2020/09/16 14:35:06 INFO: Storing value log head: {Fid:460 Len:32 Offset:10200186}
+INFO 1556 462000000
+INFO 1556 463000000
+badger 2020/09/16 14:35:09 INFO: Storing value log head: {Fid:461 Len:32 Offset:17000318}
+INFO 1561 464000000
+badger 2020/09/16 14:35:13 INFO: Storing value log head: {Fid:462 Len:32 Offset:23800450}
+badger 2020/09/16 14:35:14 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 1566 465000000
+INFO 1566 466000000
+INFO 1567 467000000
+badger 2020/09/16 14:35:18 INFO: Storing value log head: {Fid:463 Len:32 Offset:30600582}
+badger 2020/09/16 14:35:18 INFO: LOG Compact 0->1, del 9 tables, add 7 tables, took 4.706971491s
+badger 2020/09/16 14:35:18 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:35:18 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6964534521102905 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:35:18 INFO: LOG Compact 1->2, del 1 tables, add 1 tables, took 33.458733ms
+badger 2020/09/16 14:35:18 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:35:18 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6935957968235016 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:35:20 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.8045607s
+badger 2020/09/16 14:35:20 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:35:20 INFO: [Compactor: 0] Running compaction: {level:1 score:1.421291958540678 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:35:20 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000351882725954 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:35:22 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 2.093746738s
+badger 2020/09/16 14:35:22 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:35:22 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0002341891328494 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:35:22 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 2.132298746s
+badger 2020/09/16 14:35:22 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:35:22 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1489881463348866 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:35:23 INFO: Storing value log head: {Fid:465 Len:32 Offset:3400054}
+badger 2020/09/16 14:35:24 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.41024578s
+badger 2020/09/16 14:35:24 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:35:24 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.456476695s
+badger 2020/09/16 14:35:24 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:35:24 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0008955337107182 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:35:25 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 962.066685ms
+badger 2020/09/16 14:35:25 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:35:27 INFO: Storing value log head: {Fid:466 Len:32 Offset:10200186}
+INFO 1579 468000000
+INFO 1579 469000000
+INFO 1579 470000000
+badger 2020/09/16 14:35:31 INFO: Storing value log head: {Fid:467 Len:32 Offset:17000318}
+badger 2020/09/16 14:35:35 INFO: Storing value log head: {Fid:468 Len:32 Offset:23800450}
+badger 2020/09/16 14:35:36 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+INFO 1589 471000000
+badger 2020/09/16 14:35:40 INFO: Storing value log head: {Fid:469 Len:32 Offset:30600582}
+INFO 1590 472000000
+INFO 1590 473000000
+badger 2020/09/16 14:35:40 INFO: LOG Compact 0->1, del 9 tables, add 6 tables, took 4.133674169s
+badger 2020/09/16 14:35:40 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:35:40 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6060964912176132 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:35:41 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.382397371s
+badger 2020/09/16 14:35:41 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:35:41 INFO: [Compactor: 0] Running compaction: {level:1 score:1.3337927237153053 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:35:41 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0008036722739537 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:35:43 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.636368837s
+badger 2020/09/16 14:35:43 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:35:43 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.71004726s
+badger 2020/09/16 14:35:43 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:35:43 INFO: [Compactor: 0] Running compaction: {level:1 score:1.0614889077842236 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:35:43 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0007110374669235 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:35:44 INFO: Storing value log head: {Fid:471 Len:32 Offset:3400054}
+badger 2020/09/16 14:35:45 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 2.251710807s
+badger 2020/09/16 14:35:45 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:35:45 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000651195148627 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:35:45 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 2.311889039s
+badger 2020/09/16 14:35:45 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:35:46 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 936.786967ms
+badger 2020/09/16 14:35:46 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:35:48 INFO: Storing value log head: {Fid:472 Len:32 Offset:10200186}
+INFO 1601 474000000
+INFO 1601 475000000
+INFO 1601 476000000
+badger 2020/09/16 14:35:52 INFO: Storing value log head: {Fid:473 Len:32 Offset:17000318}
+badger 2020/09/16 14:35:56 INFO: Storing value log head: {Fid:474 Len:32 Offset:23800450}
+badger 2020/09/16 14:35:56 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:36:00 INFO: Storing value log head: {Fid:475 Len:32 Offset:30600582}
+badger 2020/09/16 14:36:00 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 4.117526603s
+badger 2020/09/16 14:36:00 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:36:00 INFO: [Compactor: 0] Running compaction: {level:1 score:1.513331051915884 dropPrefixes:[]} for level: 1
+INFO 1611 477000000
+INFO 1612 478000000
+badger 2020/09/16 14:36:02 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.356779313s
+badger 2020/09/16 14:36:02 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:36:02 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2410272099077702 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:36:02 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0005601738890013 dropPrefixes:[]} for level: 2
+INFO 1612 479000000
+badger 2020/09/16 14:36:03 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.499217178s
+badger 2020/09/16 14:36:03 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:36:03 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0004695641497772 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:36:03 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.560476875s
+badger 2020/09/16 14:36:03 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:36:04 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 836.04704ms
+badger 2020/09/16 14:36:04 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:36:04 INFO: Storing value log head: {Fid:477 Len:32 Offset:3400054}
+INFO 1618 480000000
+badger 2020/09/16 14:36:08 INFO: Storing value log head: {Fid:478 Len:32 Offset:10200186}
+badger 2020/09/16 14:36:12 INFO: Storing value log head: {Fid:479 Len:32 Offset:17000318}
+INFO 1622 481000000
+INFO 1623 482000000
+INFO 1623 483000000
+badger 2020/09/16 14:36:16 INFO: Storing value log head: {Fid:480 Len:32 Offset:23800450}
+badger 2020/09/16 14:36:16 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:36:21 INFO: Storing value log head: {Fid:481 Len:32 Offset:30600582}
+badger 2020/09/16 14:36:21 INFO: LOG Compact 0->1, del 9 tables, add 7 tables, took 4.198374292s
+badger 2020/09/16 14:36:21 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:36:21 INFO: [Compactor: 0] Running compaction: {level:1 score:1.6979126781225204 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:36:22 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.211771021s
+badger 2020/09/16 14:36:22 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:36:22 INFO: [Compactor: 0] Running compaction: {level:1 score:1.4256089106202126 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:36:22 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000377237300078 dropPrefixes:[]} for level: 2
+INFO 1633 484000000
+badger 2020/09/16 14:36:23 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.586747215s
+badger 2020/09/16 14:36:23 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:36:24 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.665399182s
+badger 2020/09/16 14:36:24 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:36:24 INFO: [Compactor: 0] Running compaction: {level:1 score:1.1533050760626793 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:36:24 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0002844586968422 dropPrefixes:[]} for level: 2
+INFO 1634 485000000
+INFO 1634 486000000
+badger 2020/09/16 14:36:25 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.86995565s
+badger 2020/09/16 14:36:25 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:36:25 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0001921917001406 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:36:25 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.935865936s
+badger 2020/09/16 14:36:25 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:36:26 INFO: Storing value log head: {Fid:483 Len:32 Offset:3400054}
+badger 2020/09/16 14:36:27 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.189252148s
+badger 2020/09/16 14:36:27 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:36:30 INFO: Storing value log head: {Fid:484 Len:32 Offset:10200186}
+badger 2020/09/16 14:36:34 INFO: Storing value log head: {Fid:485 Len:32 Offset:17000318}
+INFO 1645 487000000
+INFO 1645 488000000
+INFO 1646 489000000
+badger 2020/09/16 14:36:38 INFO: Storing value log head: {Fid:486 Len:32 Offset:23800450}
+badger 2020/09/16 14:36:38 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:36:43 INFO: Storing value log head: {Fid:487 Len:32 Offset:30600582}
+badger 2020/09/16 14:36:43 INFO: LOG Compact 0->1, del 9 tables, add 6 tables, took 4.488837134s
+badger 2020/09/16 14:36:43 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:36:43 INFO: [Compactor: 0] Running compaction: {level:1 score:1.609967403113842 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:36:44 INFO: LOG Compact 1->2, del 3 tables, add 3 tables, took 1.795294149s
+badger 2020/09/16 14:36:44 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:36:44 INFO: [Compactor: 0] Running compaction: {level:1 score:1.337663546204567 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:36:44 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0000996097922326 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:36:46 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.805299687s
+badger 2020/09/16 14:36:46 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:36:46 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000005975862344 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:36:46 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.852166312s
+badger 2020/09/16 14:36:46 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:36:46 INFO: [Compactor: 0] Running compaction: {level:1 score:1.065359752625227 dropPrefixes:[]} for level: 1
+INFO 1657 490000000
+badger 2020/09/16 14:36:47 INFO: Storing value log head: {Fid:489 Len:32 Offset:3400054}
+INFO 1657 491000000
+INFO 1657 492000000
+badger 2020/09/16 14:36:48 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 2.035833724s
+badger 2020/09/16 14:36:48 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:36:48 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 2.041112991s
+badger 2020/09/16 14:36:48 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:36:52 INFO: Storing value log head: {Fid:490 Len:32 Offset:10200186}
+badger 2020/09/16 14:36:56 INFO: Storing value log head: {Fid:491 Len:32 Offset:17000318}
+INFO 1667 493000000
+INFO 1668 494000000
+INFO 1668 495000000
+badger 2020/09/16 14:37:00 INFO: Storing value log head: {Fid:492 Len:32 Offset:23800450}
+badger 2020/09/16 14:37:00 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:37:04 INFO: Storing value log head: {Fid:493 Len:32 Offset:30600582}
+badger 2020/09/16 14:37:04 INFO: LOG Compact 0->1, del 8 tables, add 6 tables, took 3.818044937s
+badger 2020/09/16 14:37:04 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:37:04 INFO: [Compactor: 0] Running compaction: {level:1 score:1.5160251967608929 dropPrefixes:[]} for level: 1
+INFO 1674 496000000
+badger 2020/09/16 14:37:06 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.662527811s
+badger 2020/09/16 14:37:06 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:37:06 INFO: [Compactor: 0] Running compaction: {level:1 score:1.2437213845551014 dropPrefixes:[]} for level: 1
+badger 2020/09/16 14:37:06 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0179759840170541 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:37:07 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 1.624967855s
+badger 2020/09/16 14:37:07 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:37:07 INFO: [Compactor: 1] Running compaction: {level:2 score:1.0006975735227266 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:37:07 INFO: LOG Compact 1->2, del 2 tables, add 2 tables, took 1.738278965s
+badger 2020/09/16 14:37:07 INFO: [Compactor: 0] Compaction for level: 1 DONE
+badger 2020/09/16 14:37:08 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 807.684327ms
+badger 2020/09/16 14:37:08 INFO: [Compactor: 1] Compaction for level: 2 DONE
+badger 2020/09/16 14:37:08 INFO: [Compactor: 1] Running compaction: {level:2 score:1.000609782586495 dropPrefixes:[]} for level: 2
+badger 2020/09/16 14:37:08 INFO: Storing value log head: {Fid:495 Len:32 Offset:3400054}
+badger 2020/09/16 14:37:09 INFO: LOG Compact 2->3, del 1 tables, add 1 tables, took 958.687805ms
+badger 2020/09/16 14:37:09 INFO: [Compactor: 1] Compaction for level: 2 DONE
+INFO 1679 497000000
+INFO 1680 498000000
+INFO 1680 499000000
+badger 2020/09/16 14:37:12 INFO: Storing value log head: {Fid:496 Len:32 Offset:10200186}
+badger 2020/09/16 14:37:16 INFO: Storing value log head: {Fid:497 Len:32 Offset:17000318}
+badger 2020/09/16 14:37:20 INFO: Storing value log head: {Fid:498 Len:32 Offset:23800450}
+badger 2020/09/16 14:37:20 INFO: [Compactor: 0] Running compaction: {level:0 score:1 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:37:21 INFO: Storing value log head: {Fid:499 Len:32 Offset:6800120}
+badger 2020/09/16 14:37:24 INFO: LOG Compact 0->1, del 9 tables, add 7 tables, took 4.408866693s
+badger 2020/09/16 14:37:24 INFO: [Compactor: 0] Compaction for level: 0 DONE
+badger 2020/09/16 14:37:24 INFO: [Compactor: 173] Running compaction: {level:0 score:1.73 dropPrefixes:[]} for level: 0
+badger 2020/09/16 14:37:28 INFO: LOG Compact 0->1, del 8 tables, add 7 tables, took 3.364010932s
+badger 2020/09/16 14:37:28 INFO: [Compactor: 173] Compaction for level: 0 DONE
+badger 2020/09/16 14:37:28 INFO: Force compaction on level 0 done
+goos: linux
+goarch: amd64
+pkg: github.com/dgraph-io/bigmap
+BenchmarkSet1Mil-16    	       1	1700321156610 ns/op
+PASS
+ok  	github.com/dgraph-io/bigmap	1700.569s
